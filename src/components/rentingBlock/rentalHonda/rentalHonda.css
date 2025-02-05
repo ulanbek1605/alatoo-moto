@@ -1,0 +1,40 @@
+.rentalHonda-container {
+	max-width: 1300px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 40px 60px;
+}
+
+
+.rentalHonda-title h2 {
+	font-size: 46px;
+	letter-spacing: 0.06em;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.rentalHonda-title p {
+	text-align: center;
+	font-size: 16px;
+	width: 70%;
+	margin: 0 auto;
+}
+
+.rentalHonda-block{
+display: flex;
+justify-content: space-around;
+}
+
+.rental-honda-img{
+	width: 300px;
+	height: 300px;
+	margin-top: 40PX;
+}
+
+.rentalHonda-block .rental-table-block{
+	margin-bottom: 25px;
+}
+
+.rentalHonda-block .rental_btn{
+	height: 130px;
+}

@@ -1,0 +1,294 @@
+.rentalContainer {
+	margin: 0 auto;
+	max-width: 1300px;
+	width: 100%;
+	padding: 40px 60px;
+}
+
+.rental-info {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	gap: 20px;
+}
+
+.rental-info h2 {
+	font-size: 46px;
+	letter-spacing: 0.06em;
+}
+
+.rental-info h6 {
+	font-size: 20px;
+	width: 60%;
+	letter-spacing: normal;
+	margin: 0 auto;
+}
+
+.rental-info p {
+	font-size: 16px;
+	line-height: 1.6em;
+	text-align: center;
+	letter-spacing: normal;
+	width: 80%;
+	margin: 0 auto;
+}
+
+
+
+.rental-auto h2 {
+	font-size: 30px;
+	line-height: normal;
+	text-align: center;
+	padding: 40px 0;
+}
+
+.rental-auto h6 {
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.rental-auto p {
+	font-size: 16px;
+	text-align: center;
+	padding-top: 5px;
+}
+
+
+.rental-block-auto {
+	padding: 40px 0;
+	display: flex;
+	justify-content: space-around;
+}
+
+
+
+.swiper-button-next,
+.swiper-button-prev {
+	color: #fff;
+	width: 20px;
+	height: 20px;
+}
+
+.rental-block-auto-img {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	margin-top: 40px;
+	object-fit: center;
+}
+
+
+
+.rental-block-auto-swipper {
+	max-width: 300px;
+	width: 100%;
+	height: 200px;
+}
+
+
+.photo {
+	max-width: 300px;
+	width: 100%;
+	height: 200px;
+}
+
+.photo img {
+	width: 100%;
+	height: 200px;
+}
+
+
+
+/* ////////////////////////////////////////// */
+
+.styled-table table {
+	width: 100%;
+	border-collapse: collapse;
+	font-size: 16px;
+	background-color: #f4f4ec;
+  }
+  
+ .styled-table thead {
+	background-color: #444b3b; /* Тёмно-зелёный фон */
+	color: white; /* Белый текст */
+  }
+  
+ .styled-table thead th {
+	padding: 10px;
+	text-align: left;
+	font-weight: bold;
+  }
+  
+ .styled-table tbody tr:nth-child(odd) {
+	background-color: #d4dac5; /* Светло-зелёный */
+  }
+  
+ .styled-table tbody tr:nth-child(even) {
+	background-color: #bfcbb1; /* Тёмно-зелёный */
+  }
+  
+.styled-table  tbody td {
+	padding: 10px;
+	border: 1px solid #d9d9d9;
+  }
+  
+.styled-table  td {
+	border: none;
+	text-align: left;
+	color: #333; /* Тёмный текст */
+  }
+  
+  /* th {
+	border-bottom: 2px solid #d9d9d9;
+  }
+   */
+  /* table th:first-child,
+  table td:first-child {
+	border-right: 2px solid #d9d9d9;
+   } */ 
+  
+
+@media(max-width: 800px) {
+
+	.rentalContainer {
+		padding: 30px 40px;
+	}
+
+	.rental-info h2 {
+		font-size: 34px;
+		letter-spacing: 0.06em;
+	}
+
+	.rental-info h6 {
+		font-size: 15px;
+	}
+
+	.rental-info p {
+		font-size: 13px;
+	}
+
+}
+
+
+
+.rental-table-block th {
+	border: 1px solid black;
+	padding: 5px 30px 5px 0;
+	text-align: start;
+	background-color: #4C5449;
+	;
+}
+
+.rental-table-block td {
+	border: 1px solid black;
+	padding: 5px 30px 5px 0;
+	text-align: start;
+}
+
+
+.rental-table-block {
+	margin-bottom: 60px;
+}
+
+.spisok li:nth-child(4) {
+	margin-bottom: 30px;
+}
+
+.spisok span {
+	font-weight: bold;
+}
+
+.rental_btn {
+	height: 200px;
+	width: 100%;
+	display: flex;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+}
+
+.rental-btn {
+
+
+	display: inline-block;
+	border: none;
+	padding: 10px 20px;
+	background-color: #007bff;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 5px;
+	font-weight: 600;
+	transition: background-color 0.3s ease;
+}
+
+.rental-btn:hover {
+	background-color: #0056b3;
+}
+
+@media(max-width: 560px) {
+	.rental-info h2 {
+		font-size: 23px;
+		letter-spacing: 0.04em;
+		width: 100%;
+	}
+
+	.rental-info h6 {
+		font-size: 12px;
+		width: 100%;
+
+	}
+
+	.rental-info p {
+		font-size: 11px;
+		width: 100%;
+
+	}
+
+	.rental-auto h2 {
+		font-size: 25px;
+		padding: 20px 0;
+	}
+
+	.rental-auto h6 {
+		font-size: 14px;
+	}
+
+	.rental-auto p {
+		font-size: 14px;
+		padding-top: 3px;
+	}
+
+}
+
+
+@media(max-width: 420px) {
+	.rentalContainer {
+		padding: 20px;
+	}
+
+	.rental-info {
+		gap: 10px;
+	}
+
+	.rental-info h2 {
+		font-size: 15px;
+	}
+
+
+
+	.rental-auto h2 {
+		font-size: 15px;
+		padding: 15px 0;
+	}
+
+	.rental-auto h6 {
+		font-size: 12px;
+	}
+
+	.rental-auto p {
+		font-size: 11px;
+		padding-top: 3px;
+	}
+}

@@ -1,0 +1,23 @@
+/* styles/globals.css */
+.payment_container{
+	max-width: 1300px;
+	width: 100%;
+	padding: 20px 60px;
+	margin: 0 auto;
+}
+
+  
+  .payment_container section {
+	margin-bottom: 20px;
+  }
+  
+  .payment_container h2 {
+	font-size: 1.5rem;
+	margin-bottom: 10px;
+  }
+  
+  .payment_container p {
+	font-size: 1rem;
+	color: #555;
+  }
+  

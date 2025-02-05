@@ -1,0 +1,131 @@
+.rentalMoto-container {
+	max-width: 1300px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 40px 60px;
+}
+
+
+
+.swiper-button-next,
+.swiper-button-prev {
+	color: #fff;
+	width: 20px;
+	height: 20px;
+}
+
+
+.rentalMoto-block-img {
+	max-width: 300px;
+	height: 200px;
+	width: 100%;
+}
+
+
+
+.photo {
+	max-width: 300px;
+	width: 100%;
+	height: 200px;
+}
+
+.photo img {
+	width: 100%;
+	height: 200px;
+}
+
+
+
+
+/* //////////////////////////////////////////// */
+
+.rentalMoto-title h2 {
+	font-size: 46px;
+	letter-spacing: 0.06em;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.rentalMoto-title p {
+	font-size: 16px;
+	line-height: 1.6em;
+	text-align: center;
+	letter-spacing: normal;
+	width: 80%;
+	margin: 0 auto;
+
+	margin-bottom: 20px;
+
+}
+
+
+
+/* ...................... */
+
+
+.rate-table {
+	border-collapse: collapse;
+	margin: 20px 0;
+	font-size: 16px;
+	text-align: left;
+  }
+  
+  .rate-table th {
+	background-color: #3c3f3b; /* Темно-зеленый */
+	color: white;
+	padding: 10px;
+  }
+  
+  .rate-table td {
+	padding: 10px;
+	border: 1px solid #d9d9d9;
+  }
+  
+  .rate-table tr:nth-child(even) {
+	background-color: #e6e6e6; /* Светлый фон */
+  }
+  
+  .rate-table tr:nth-child(odd) {
+	background-color: #f6f6f6; /* Чуть темнее */
+  }
+  
+  .rate-table td:nth-child(1) {
+	font-weight: bold;
+  }
+  
+  .rate-table td:last-child {
+	text-align: center;
+  }
+
+
+  .spisok1 span {
+	font-weight: bold;
+}
+
+
+.rentalMoto-block{
+	display: flex;
+	justify-content: space-around;
+}
+  
+.rentalMoto-block-img{
+	margin-top: 40px;
+}
+
+@media(max-width: 800px) {
+
+	.rentalMoto-container {
+		padding: 30px 40px;
+	}
+
+	.rentalMoto-title h2 {
+		font-size: 34px;
+		letter-spacing: 0.06em;
+	}
+
+
+	.rentalMoto-title p {
+		font-size: 13px;
+	}
+
+}

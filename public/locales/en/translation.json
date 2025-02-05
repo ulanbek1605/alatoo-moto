@@ -1,0 +1,67 @@
+{
+	"shipping": {
+	  "title": "International Motorcycle Shipping",
+	  "content": "We no longer offer motorcycle shipping from Kyrgyzstan abroad. This is due to the high workload, customs clearance complexities, frequent regulation changes, and differences in the laws of destination countries. Because of these factors, we cannot guarantee a completely smooth process, so we have decided to discontinue this service. Instead, we offer a long-term parking service. You can store your motorcycle and continue your journey next year, fully rested and refreshed. Our parking facility is monitored 24/7 by CCTV."
+	},
+	"recommendations": {
+	  "title": "Useful Recommendations",
+	  "content": "When traveling through this arid region, it is crucial to stay hydrated. We recommend using a hydration system integrated into a small backpack, such as those from Enduristan or other reliable brands.\nThe soil in Central Asia contains fine quartz dust that can cause severe engine damage. To prevent this, make sure to clean your air filters regularly and avoid costly repairs."
+	},
+	"skills": {
+	  "title": "Essential Skills",
+	  "content": "In remote areas, motorcycle repair shops are non-existent, and in some places, you may find yourself completely alone. At Alatoo-moto, renting a motorcycle assumes that you know how to change tires and inner tubes on your own.\n\nWe provide phone assistance and evacuation services, but keep in mind:\n\n- There is no mobile coverage in many areas.\n- Evacuation is only available within inhabited regions.\n- In most cases, local help with a pack animal will be your best option."
+	},
+	"police": {
+	  "title": "Dealing with the Police",
+	  "content": "Kyrgyzstan is notorious for its high level of corruption. Traffic police often stop foreigners, but by law, they have no right to seize your driver’s license or demand money. Never agree to pay large fines in USD!\n\nIf officers attempt to pressure you for money, use the time-delay tactic:\n\n- Act as if you are in no hurry.\n- Say that you only have local currency.\n- Pretend you do not understand a single word.\n\nRemaining calm and patient is your best strategy!"
+	},
+	"flights": {
+	  "title": "Flights Between Bishkek and Osh",
+	  "content": "Several airlines operate flights between Bishkek and Osh. Tickets can be booked online and paid for with a credit card.\n\n⏱ Flight duration: ~45 minutes\n💲 Ticket price: $35–$55\n\nAvailable Airlines:\n- Air Manas\n- TEZ Jet\n- AVIA Traffic Direct International Flights to Osh\nPreviously, it was possible to travel to Osh and Bishkek via Moscow. However, due to the conflict in Ukraine, direct flights from Europe to Moscow may not be available.\n\n🔹 Important to Know:\n- Pegasus Airlines has launched a new Istanbul → Osh route. Please note that the departure from Istanbul is from Sabiha Gökçen Airport, not the main international hub."
+	},
+	"best_time": {
+	  "title": "When is the best time to travel in Kyrgyzstan?",
+	  "content": "The season starts at the end of April to the beginning of May. Osh is located at an altitude of 1000 meters, and the passes, which are at high altitudes, can remain snowed in until the end of June. The Kazarman-Jalalabad pass usually opens at the beginning of June. May and June are great for riding at lower altitudes when it’s not too hot yet.\n\nThe best time, in my opinion, is late summer, from the end of August to September. During this period, it’s no longer too hot around Osh, the mountains are free of snow, the weather is mostly sunny, with no landslides, and the temperature is comfortable—between 10° to 20°C during the day and 0° to 5°C at night."
+	},
+	"border": {
+	  "title": "Border Crossing & Visa",
+	  "content": "Warning: The Kyrgyzstan — Tajikistan border is temporarily closed. However, the Uzbekistan — Tajikistan borders remain open, including for Western citizens.\n\nKyrgyzstan: Visa on arrival for up to 60 days.\nTajikistan: Most Western passports can enter visa-free. To travel along the Pamir Highway, a special GBAO permit is required, which is currently only available in Dushanbe. These regulations are subject to change.\nKazakhstan: Visa on arrival for up to 60 days.\nUzbekistan: Visa on arrival, usually for 30 days/one entry for most Western countries.\nTurkmenistan: It’s better not to ask. :-)"
+	},
+	"tajik_crossings": {
+	  "title": "Tajik Border Crossings",
+	  "content": "Important: The Kyrgyzstan - Tajikistan border crossing is currently closed.\nWe have regular experience with four border crossings.\n\nKaramyk: This is a popular crossing that many plan to use. It is located west of Sary Tash in Kyrgyzstan and seems to lead to the Pamir Highway just outside of Dushanbe. However, it is closed to foreigners! Do not attempt to cross; you will be turned back. This crossing is only for Kyrgyz and Tajik nationals.\n\nKyzyl Bel: This is the recommended crossing from Batken. The process is fairly straightforward, but expect some delays due to frequent power outages and slow-moving guards on the Kyrgyz side."
+	},
+	"safety": {
+	  "title": "How safe is the Pamir Highway and Tajikistan?",
+	  "content": "We recommend considering Tajikistan as a medium-risk country. It is generally safe for motorcyclists and travelers. Tajikistan makes significant efforts to ensure safety. Here are a few recommendations:\n\n- Trust your intuition. If you feel unsafe, don’t stop or leave immediately.\n- Be constantly aware of your surroundings and monitor them closely.\n- Talk to other motorcyclists along the road and in guesthouses.\n- If you're camping in nature, try to stay away from the road where no one can see you (but always clean up after yourself)."
+	},
+	"bike_equipment": {
+	  "title": "Rental Bike Equipment",
+	  "content": "Our bikes are equipped with all the necessary gear to keep you on the road. You will have a flat tire repair kit, spare front and rear tubes, and an electric pump. Additionally, we provide a tool roll containing levers, tools, cable ties, plastic gloves, tape, and fuses."
+	},
+	"currency_payment": {
+	  "title": "How can I pay?",
+	  "content": "For rental or tire reservation, we provide bank transaction details.\nAt our shop in Osh, you can pay in cash using Kyrgyz Som, USD, Euro, or by credit card (VISA/MasterCard). Note that credit card payments are charged in local currency by law.\nA word on commission and fees: We work with Wise, a digital bank offering global transaction services.\nFor your down payment, Euro payments through Wise incur the lowest fees."
+	},
+	"currency": {
+	  "title": "What currency can I pay in?",
+	  "content": "We offer credit card payments online in Euro only. In our Osh shop, payments are accepted in Kyrgyz currency. For bank transactions, we accept most common currencies through Wise (Euro, USD)."
+	},
+	"apps": {
+	  "title": "Recommendations on GPS navi-apps",
+	  "content": "Several apps we warmly recommend for your navigation.\nMaps.me: Download regional maps for offline navigation, especially useful for overland travel.\n2GIS: Ideal for cities, with additional information on public services and stores.\nOsmAnd: Offline maps, navigation, and track import.\n"
+	},
+	"gps": {
+	  "title": "Are your rental bikes equipped with GPS?",
+	  "content": "Alatoo Moto rental bikes come equipped with a USB socket for charging devices at the handlebar. Additionally, you can rent a RAM mobile phone holder for $1/day. However, we do not provide standalone GPS devices."
+	},
+	"tour": {
+	  "title": "Does Alatoo Moto run tours?",
+	  "content": "Currently, Alatoo Moto does not offer commercial tours. However, we are happy to arrange and guide customized tours upon request. We have years of experience in the region and a network of reliable guides and drivers."
+	},
+	"cyclists": {
+	  "title": "Cyclists: Do you have cardboard boxes for bicycle air shipping?",
+	  "content": "We occasionally receive requests from cyclists for cardboard boxes to ship their bikes. Our standard response is: 'Sorry, we don’t have such boxes. However, try local supermarkets as they may have large cardboard for air cargo. These supermarkets include:\n- FRUNZE Hypermarket (40.535869/72.808549)\n- GLOBUS (40.532372/72.807619)'"
+	}
+  }
+  
