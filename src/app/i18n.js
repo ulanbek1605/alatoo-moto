@@ -3,22 +3,24 @@ import { initReactI18next } from "react-i18next";
 import Backend from "i18next-http-backend";
 import LanguageDetector from "i18next-browser-languagedetector";
 
+const isBrowser = typeof window !== "undefined";
+
 i18n
   .use(Backend)
-  .use(LanguageDetector) 
-  .use(initReactI18next) 
+  .use(LanguageDetector)
+  .use(initReactI18next)
   .init({
-    lng: "en", 
-    fallbackLng: "ru", 
-    debug: true, 
+    lng: isBrowser ? "en" : "ru", // Избегаем SSR-проблем
+    fallbackLng: "ru",
+    debug: isBrowser, // Отключаем debug на сервере
     interpolation: {
-      escapeValue: true, // Отключаем экранирование (необходимо для React)
+      escapeValue: false, // React сам экранирует
     },
     react: {
-      useSuspense: false, // Отключаем Suspense (может помочь избежать ошибок гидратации)
+      useSuspense: false,
     },
     backend: {
-      loadPath: "/locales/{{lng}}/{{ns}}.json", // Указываем путь для загрузки переводов
+      loadPath: "/locales/{{lng}}/{{ns}}.json",
     },
   });
 

@@ -1,19 +1,16 @@
 'use client';
+import React from "react";
+import "@/app/i18n"; // Убедись, что инициализация i18n происходит здесь
+import dynamic from "next/dynamic";
 
-import React, { Suspense } from "react";
-import PaymentInfo from "../FAQ/faq";
-import "../../app/i18n"; // Убедись, что инициализация i18n происходит здесь
-
+const PaymentInfo = dynamic(() => import("@/components/FAQ/faq"), { ssr: false });
 
 
 
 function FaqComp() {
   return (
     <div>
-      {/* Используем Suspense для асинхронных переводов */}
-      <Suspense fallback={<div>Loading...</div>}>
-        <PaymentInfo />
-      </Suspense>
+      <PaymentInfo />
     </div>
   );
 }

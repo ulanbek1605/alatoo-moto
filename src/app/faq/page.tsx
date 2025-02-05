@@ -19,7 +19,7 @@
 import React from 'react'
 import FaqComp from '@/components/faqComp/faqComp'
 
-function faq() {
+async function faq() {
   return (
     <div>
       <FaqComp/>
