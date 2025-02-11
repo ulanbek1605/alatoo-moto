@@ -3,15 +3,16 @@
 	width: 100%;
 	padding: 50px 60px;
 	background-color: #f9f9f9;
-	margin:  0 auto;
+	margin: 0 auto;
 }
 
 
-.tripsContainer h2{
+.tripsContainer h2 {
 	padding: 0 0 40px 0;
 	display: flex;
 	justify-content: center;
 }
+
 .tripsBlock {
 	display: flex;
 	flex-wrap: wrap;
@@ -40,7 +41,7 @@
 	border-radius: 10px 10px 0 0;
 }
 
-.tripsImage img:nth-child(1){
+.tripsImage img:nth-child(1) {
 	object-fit: cover;
 }
 
@@ -80,10 +81,38 @@
 
 
 
-@media(max-width:700px){
+@media(max-width:700px) {
 	.tripsContainer {
-		
+
 		padding: 25px 40px;
-	
+
+	}
+}
+
+@media (max-width: 450px) {
+	.tripsContainer {
+		padding: 18px 10px;
+	}
+
+
+}
+
+
+@media (max-width: 350px) {
+	.tripsContent{
+		padding: 10px;
+	}
+
+	.tripsTitle{
+		font-size: 15px;
+
+	}
+
+	.tripsAddress{
+		font-size: 13px;
+	}
+
+	.tripsBtn{
+		padding: 5px 10px;
 	}
 }

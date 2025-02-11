@@ -74,7 +74,7 @@ function rentalHonda() {
 						<table className="rate-table">
 							<thead>
 								<tr>
-									<th colSpan="2">rate per day</th>
+									<th colSpan={2}>rate per day</th>
 									<th>rate per day</th>
 								</tr>
 							</thead>

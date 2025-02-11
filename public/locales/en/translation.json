@@ -1,67 +1,275 @@
 {
 	"shipping": {
-	  "title": "International Motorcycle Shipping",
-	  "content": "We no longer offer motorcycle shipping from Kyrgyzstan abroad. This is due to the high workload, customs clearance complexities, frequent regulation changes, and differences in the laws of destination countries. Because of these factors, we cannot guarantee a completely smooth process, so we have decided to discontinue this service. Instead, we offer a long-term parking service. You can store your motorcycle and continue your journey next year, fully rested and refreshed. Our parking facility is monitored 24/7 by CCTV."
+		"title": "International Motorcycle Shipping",
+		"content": "We no longer offer motorcycle shipping from Kyrgyzstan abroad. This is due to the high workload, customs clearance complexities, frequent regulation changes, and differences in the laws of destination countries. Because of these factors, we cannot guarantee a completely smooth process, so we have decided to discontinue this service. Instead, we offer a long-term parking service. You can store your motorcycle and continue your journey next year, fully rested and refreshed. Our parking facility is monitored 24/7 by CCTV."
 	},
 	"recommendations": {
-	  "title": "Useful Recommendations",
-	  "content": "When traveling through this arid region, it is crucial to stay hydrated. We recommend using a hydration system integrated into a small backpack, such as those from Enduristan or other reliable brands.\nThe soil in Central Asia contains fine quartz dust that can cause severe engine damage. To prevent this, make sure to clean your air filters regularly and avoid costly repairs."
+		"title": "Useful Recommendations",
+		"content": "When traveling through this arid region, it is crucial to stay hydrated. We recommend using a hydration system integrated into a small backpack, such as those from Enduristan or other reliable brands.\nThe soil in Central Asia contains fine quartz dust that can cause severe engine damage. To prevent this, make sure to clean your air filters regularly and avoid costly repairs."
 	},
 	"skills": {
-	  "title": "Essential Skills",
-	  "content": "In remote areas, motorcycle repair shops are non-existent, and in some places, you may find yourself completely alone. At Alatoo-moto, renting a motorcycle assumes that you know how to change tires and inner tubes on your own.\n\nWe provide phone assistance and evacuation services, but keep in mind:\n\n- There is no mobile coverage in many areas.\n- Evacuation is only available within inhabited regions.\n- In most cases, local help with a pack animal will be your best option."
+		"title": "Essential Skills",
+		"content": "In remote areas, motorcycle repair shops are non-existent, and in some places, you may find yourself completely alone. At Alatoo-moto, renting a motorcycle assumes that you know how to change tires and inner tubes on your own.\n\nWe provide phone assistance and evacuation services, but keep in mind:\n\n- There is no mobile coverage in many areas.\n- Evacuation is only available within inhabited regions.\n- In most cases, local help with a pack animal will be your best option."
 	},
 	"police": {
-	  "title": "Dealing with the Police",
-	  "content": "Kyrgyzstan is notorious for its high level of corruption. Traffic police often stop foreigners, but by law, they have no right to seize your driver’s license or demand money. Never agree to pay large fines in USD!\n\nIf officers attempt to pressure you for money, use the time-delay tactic:\n\n- Act as if you are in no hurry.\n- Say that you only have local currency.\n- Pretend you do not understand a single word.\n\nRemaining calm and patient is your best strategy!"
+		"title": "Dealing with the Police",
+		"content": "Kyrgyzstan is notorious for its high level of corruption. Traffic police often stop foreigners, but by law, they have no right to seize your driver’s license or demand money. Never agree to pay large fines in USD!\n\nIf officers attempt to pressure you for money, use the time-delay tactic:\n\n- Act as if you are in no hurry.\n- Say that you only have local currency.\n- Pretend you do not understand a single word.\n\nRemaining calm and patient is your best strategy!"
 	},
 	"flights": {
-	  "title": "Flights Between Bishkek and Osh",
-	  "content": "Several airlines operate flights between Bishkek and Osh. Tickets can be booked online and paid for with a credit card.\n\n⏱ Flight duration: ~45 minutes\n💲 Ticket price: $35–$55\n\nAvailable Airlines:\n- Air Manas\n- TEZ Jet\n- AVIA Traffic Direct International Flights to Osh\nPreviously, it was possible to travel to Osh and Bishkek via Moscow. However, due to the conflict in Ukraine, direct flights from Europe to Moscow may not be available.\n\n🔹 Important to Know:\n- Pegasus Airlines has launched a new Istanbul → Osh route. Please note that the departure from Istanbul is from Sabiha Gökçen Airport, not the main international hub."
+		"title": "Flights Between Bishkek and Osh",
+		"content": "Several airlines operate flights between Bishkek and Osh. Tickets can be booked online and paid for with a credit card.\n\n⏱ Flight duration: ~45 minutes\n💲 Ticket price: $35–$55\n\nAvailable Airlines:\n- Air Manas\n- TEZ Jet\n- AVIA Traffic Direct International Flights to Osh\nPreviously, it was possible to travel to Osh and Bishkek via Moscow. However, due to the conflict in Ukraine, direct flights from Europe to Moscow may not be available.\n\n🔹 Important to Know:\n- Pegasus Airlines has launched a new Istanbul → Osh route. Please note that the departure from Istanbul is from Sabiha Gökçen Airport, not the main international hub."
 	},
 	"best_time": {
-	  "title": "When is the best time to travel in Kyrgyzstan?",
-	  "content": "The season starts at the end of April to the beginning of May. Osh is located at an altitude of 1000 meters, and the passes, which are at high altitudes, can remain snowed in until the end of June. The Kazarman-Jalalabad pass usually opens at the beginning of June. May and June are great for riding at lower altitudes when it’s not too hot yet.\n\nThe best time, in my opinion, is late summer, from the end of August to September. During this period, it’s no longer too hot around Osh, the mountains are free of snow, the weather is mostly sunny, with no landslides, and the temperature is comfortable—between 10° to 20°C during the day and 0° to 5°C at night."
+		"title": "When is the best time to travel in Kyrgyzstan?",
+		"content": "The season starts at the end of April to the beginning of May. Osh is located at an altitude of 1000 meters, and the passes, which are at high altitudes, can remain snowed in until the end of June. The Kazarman-Jalalabad pass usually opens at the beginning of June. May and June are great for riding at lower altitudes when it’s not too hot yet.\n\nThe best time, in my opinion, is late summer, from the end of August to September. During this period, it’s no longer too hot around Osh, the mountains are free of snow, the weather is mostly sunny, with no landslides, and the temperature is comfortable—between 10° to 20°C during the day and 0° to 5°C at night."
 	},
 	"border": {
-	  "title": "Border Crossing & Visa",
-	  "content": "Warning: The Kyrgyzstan — Tajikistan border is temporarily closed. However, the Uzbekistan — Tajikistan borders remain open, including for Western citizens.\n\nKyrgyzstan: Visa on arrival for up to 60 days.\nTajikistan: Most Western passports can enter visa-free. To travel along the Pamir Highway, a special GBAO permit is required, which is currently only available in Dushanbe. These regulations are subject to change.\nKazakhstan: Visa on arrival for up to 60 days.\nUzbekistan: Visa on arrival, usually for 30 days/one entry for most Western countries.\nTurkmenistan: It’s better not to ask. :-)"
+		"title": "Border Crossing & Visa",
+		"content": "Warning: The Kyrgyzstan — Tajikistan border is temporarily closed. However, the Uzbekistan — Tajikistan borders remain open, including for Western citizens.\n\nKyrgyzstan: Visa on arrival for up to 60 days.\nTajikistan: Most Western passports can enter visa-free. To travel along the Pamir Highway, a special GBAO permit is required, which is currently only available in Dushanbe. These regulations are subject to change.\nKazakhstan: Visa on arrival for up to 60 days.\nUzbekistan: Visa on arrival, usually for 30 days/one entry for most Western countries.\nTurkmenistan: It’s better not to ask. :-)"
 	},
 	"tajik_crossings": {
-	  "title": "Tajik Border Crossings",
-	  "content": "Important: The Kyrgyzstan - Tajikistan border crossing is currently closed.\nWe have regular experience with four border crossings.\n\nKaramyk: This is a popular crossing that many plan to use. It is located west of Sary Tash in Kyrgyzstan and seems to lead to the Pamir Highway just outside of Dushanbe. However, it is closed to foreigners! Do not attempt to cross; you will be turned back. This crossing is only for Kyrgyz and Tajik nationals.\n\nKyzyl Bel: This is the recommended crossing from Batken. The process is fairly straightforward, but expect some delays due to frequent power outages and slow-moving guards on the Kyrgyz side."
+		"title": "Tajik Border Crossings",
+		"content": "Important: The Kyrgyzstan - Tajikistan border crossing is currently closed.\nWe have regular experience with four border crossings.\n\nKaramyk: This is a popular crossing that many plan to use. It is located west of Sary Tash in Kyrgyzstan and seems to lead to the Pamir Highway just outside of Dushanbe. However, it is closed to foreigners! Do not attempt to cross; you will be turned back. This crossing is only for Kyrgyz and Tajik nationals.\n\nKyzyl Bel: This is the recommended crossing from Batken. The process is fairly straightforward, but expect some delays due to frequent power outages and slow-moving guards on the Kyrgyz side."
 	},
 	"safety": {
-	  "title": "How safe is the Pamir Highway and Tajikistan?",
-	  "content": "We recommend considering Tajikistan as a medium-risk country. It is generally safe for motorcyclists and travelers. Tajikistan makes significant efforts to ensure safety. Here are a few recommendations:\n\n- Trust your intuition. If you feel unsafe, don’t stop or leave immediately.\n- Be constantly aware of your surroundings and monitor them closely.\n- Talk to other motorcyclists along the road and in guesthouses.\n- If you're camping in nature, try to stay away from the road where no one can see you (but always clean up after yourself)."
+		"title": "How safe is the Pamir Highway and Tajikistan?",
+		"content": "We recommend considering Tajikistan as a medium-risk country. It is generally safe for motorcyclists and travelers. Tajikistan makes significant efforts to ensure safety. Here are a few recommendations:\n\n- Trust your intuition. If you feel unsafe, don’t stop or leave immediately.\n- Be constantly aware of your surroundings and monitor them closely.\n- Talk to other motorcyclists along the road and in guesthouses.\n- If you're camping in nature, try to stay away from the road where no one can see you (but always clean up after yourself)."
 	},
 	"bike_equipment": {
-	  "title": "Rental Bike Equipment",
-	  "content": "Our bikes are equipped with all the necessary gear to keep you on the road. You will have a flat tire repair kit, spare front and rear tubes, and an electric pump. Additionally, we provide a tool roll containing levers, tools, cable ties, plastic gloves, tape, and fuses."
+		"title": "Rental Bike Equipment",
+		"content": "Our bikes are equipped with all the necessary gear to keep you on the road. You will have a flat tire repair kit, spare front and rear tubes, and an electric pump. Additionally, we provide a tool roll containing levers, tools, cable ties, plastic gloves, tape, and fuses."
 	},
 	"currency_payment": {
-	  "title": "How can I pay?",
-	  "content": "For rental or tire reservation, we provide bank transaction details.\nAt our shop in Osh, you can pay in cash using Kyrgyz Som, USD, Euro, or by credit card (VISA/MasterCard). Note that credit card payments are charged in local currency by law.\nA word on commission and fees: We work with Wise, a digital bank offering global transaction services.\nFor your down payment, Euro payments through Wise incur the lowest fees."
+		"title": "How can I pay?",
+		"content": "For rental or tire reservation, we provide bank transaction details.\nAt our shop in Osh, you can pay in cash using Kyrgyz Som, USD, Euro, or by credit card (VISA/MasterCard). Note that credit card payments are charged in local currency by law.\nA word on commission and fees: We work with Wise, a digital bank offering global transaction services.\nFor your down payment, Euro payments through Wise incur the lowest fees."
 	},
 	"currency": {
-	  "title": "What currency can I pay in?",
-	  "content": "We offer credit card payments online in Euro only. In our Osh shop, payments are accepted in Kyrgyz currency. For bank transactions, we accept most common currencies through Wise (Euro, USD)."
+		"title": "What currency can I pay in?",
+		"content": "We offer credit card payments online in Euro only. In our Osh shop, payments are accepted in Kyrgyz currency. For bank transactions, we accept most common currencies through Wise (Euro, USD)."
 	},
 	"apps": {
-	  "title": "Recommendations on GPS navi-apps",
-	  "content": "Several apps we warmly recommend for your navigation.\nMaps.me: Download regional maps for offline navigation, especially useful for overland travel.\n2GIS: Ideal for cities, with additional information on public services and stores.\nOsmAnd: Offline maps, navigation, and track import.\n"
+		"title": "Recommendations on GPS navi-apps",
+		"content": "Several apps we warmly recommend for your navigation.\nMaps.me: Download regional maps for offline navigation, especially useful for overland travel.\n2GIS: Ideal for cities, with additional information on public services and stores.\nOsmAnd: Offline maps, navigation, and track import.\n"
 	},
 	"gps": {
-	  "title": "Are your rental bikes equipped with GPS?",
-	  "content": "Alatoo Moto rental bikes come equipped with a USB socket for charging devices at the handlebar. Additionally, you can rent a RAM mobile phone holder for $1/day. However, we do not provide standalone GPS devices."
+		"title": "Are your rental bikes equipped with GPS?",
+		"content": "Alatoo Moto rental bikes come equipped with a USB socket for charging devices at the handlebar. Additionally, you can rent a RAM mobile phone holder for $1/day. However, we do not provide standalone GPS devices."
 	},
 	"tour": {
-	  "title": "Does Alatoo Moto run tours?",
-	  "content": "Currently, Alatoo Moto does not offer commercial tours. However, we are happy to arrange and guide customized tours upon request. We have years of experience in the region and a network of reliable guides and drivers."
+		"title": "Does Alatoo Moto run tours?",
+		"content": "Currently, Alatoo Moto does not offer commercial tours. However, we are happy to arrange and guide customized tours upon request. We have years of experience in the region and a network of reliable guides and drivers."
 	},
 	"cyclists": {
-	  "title": "Cyclists: Do you have cardboard boxes for bicycle air shipping?",
-	  "content": "We occasionally receive requests from cyclists for cardboard boxes to ship their bikes. Our standard response is: 'Sorry, we don’t have such boxes. However, try local supermarkets as they may have large cardboard for air cargo. These supermarkets include:\n- FRUNZE Hypermarket (40.535869/72.808549)\n- GLOBUS (40.532372/72.807619)'"
+		"title": "Cyclists: Do you have cardboard boxes for bicycle air shipping?",
+		"content": "We occasionally receive requests from cyclists for cardboard boxes to ship their bikes. Our standard response is: 'Sorry, we don’t have such boxes. However, try local supermarkets as they may have large cardboard for air cargo. These supermarkets include:\n- FRUNZE Hypermarket (40.535869/72.808549)\n- GLOBUS (40.532372/72.807619)'"
+	},
+	"header": {
+		"home": "Home",
+		"rentals": "Rentals",
+		"services": "Repair/Service",
+		"partners": "Partners",
+		"about": "About us",
+		"faq": "FAQ",
+		"contacts": "Contacts"
+	},
+	"contacts": {
+		"title": "Contact Us",
+		"address": "Address",
+		"phone": "Phone",
+		"email": "Email",
+		"workingHours": "Working Hours",
+		"weekdays": "Monday – Friday",
+		"saturday": "Saturday",
+		"add": "Osh, Amir-Timur Street, 101 home 14"
+	},
+	"about": {
+		"title": "About Us",
+		"paragraph1": "Welcome to our company! We specialize in providing high-quality motorcycle and car rental services, along with professional maintenance and repair solutions. Located in Osh, South Kyrgyzstan, we have been proudly serving adventurers and travelers since 2015.",
+		"paragraph2": "Our mission is to empower exploration and adventure by offering reliable vehicles and expert services. Whether you're embarking on a thrilling journey through Central Asia or simply need a dependable rental, we've got you covered.",
+		"paragraph3": "We take pride in our experienced team, who are passionate about delivering exceptional customer service and ensuring your safety and satisfaction. Join us and explore the beauty of Kyrgyzstan with confidence and ease."
+	},
+	"partners": {
+		"title": "Our Partners",
+		"enduristan": {
+			"name": "Enduristan",
+			"description": "Supplier of SWM Superdual X motorcycles and spare parts."
+		},
+		"yamaha": {
+			"name": "Yamaha and Honda",
+			"description": "Trusted partners for motorcycle rentals and support."
+		},
+		"oil": {
+			"name": "Oil and Consumables Suppliers",
+			"description": "Reliable providers of high-quality oils and consumables."
+		},
+		"alatoo": {
+			"name": "ALATOO-MOTO Swiss",
+			"description": "Partners for planning and organizing travel routes and assisting for guided tours for German, French, and English-speaking groups."
+		},
+		"osh": {
+			"name": "OSH DESTINATION",
+			"description": "Partners for planning and organizing travel routes within Kyrgyzstan. Assisting tours into Pamir and Uzbekistan."
+		},
+		"hotel": {
+			"name": "Hotel Classic",
+			"description": "Booking hotel rooms, restaurant, and pool."
+		}
+	},
+	"service": {
+		"services": "Services",
+		"tireReservation": "Tire Reservation",
+		"tireReservationDescription": "Want to make sure your tire is ready for you? Send us an email with your specifications. A 50% down payment is required to reserve your tires. Payment is made via bank transfer in Euro or USD.",
+		"cancellationPolicy": "In case of a cancellation of your reservation, we keep 50% of your down payment.",
+		"mechanicalService": "Mechanical Service",
+		"mechanicalServiceDescription": "We offer simple services like oil and air filter changes. We do not provide deep engine maintenance. In April, we open our doors for mechanical service and self-maintenance options. Winter season only upon request. -> Pricing see PDF.",
+		"motorbikeParking": "Motorbike Parking",
+		"motorbikeParkingDescription": "Some people need a storage place for the winter, while others need a parking spot for a quick trip to China. Osh is a strategic location near the Pamir Highway for your journey.",
+		"miniHotel": "Mini-Hotel",
+		"miniHotelDescription": "For your convenience, we offer a mini-hotel. You can stay with us for a few days to rest after long travels or before the next part of your journey. Cozy rooms and a pleasant atmosphere will ensure a comfortable stay.",
+		"amenities": "Amenities",
+		"amenitiesDescription": "Amenities for a full-service day at Alatoo Moto:",
+		"amenitiesList1": "Wi-Fi is available at our shop and self-service area.",
+		"amenitiesList2": "A cozy air-conditioned café is next door.",
+		"amenitiesList3": "Several restaurants just across the street."
+	},
+	"rental": {
+		"title": "Rental Motorbikes + Cars",
+		"subtitle": "Our aim is high quality for rental vehicles.",
+		"description": "For the remote regions of Central Asia it is crucial to have some mechanical skills to help yourself in case of a flat tire or other damage. We expect you are able to change and fix a flat tire on the road. Tech equipment for usual emergency procedure is provided. Pick-up / drop-off is in Osh only. There is a direct flight from Istanbul to Osh with Pegasus Airlines.",
+		"carRental": "CAR rental",
+		"fleetInfo": "In our fleet we have 16 Yamaha XT 600 and 3 Yamaha Tenere",
+		"carDetails1": "2002 Land cruiser 100 series 4.2 liter diesel, mechanik transmission",
+		"carDetails2": "2000 Land cruiser 78 series 4.2 liter diesel, mechanik transmission",
+		"carDetails3": "2002 Land cruiser 76 series 4.2 liter diesel, mechanik transmission",
+		"carDetails4": "2001 RAV4 2 liter gasoline automatic transmission",
+		"carType": "Type of Car",
+		"rent1To7Days": "1-7 days",
+		"rent8PlusDays": "8+ days",
+		"deposit": "Deposit in cash: 1500$",
+		"optionalInsurance": "Optional insurance (comprehensive coverage): 17$/day",
+		"techEquipment": "Tech equipment included for tire fix & pump overland",
+		"phoneAssistance": "Phone assistance on the road provided and included",
+		"driveableIn": "Drive-able in: Kyrgyzstan, Tajikistan, Uzbekistan, Kazakhstan",
+		"bookNow": "BOOK NOW",
+		"cars_name": "Land Cruiser / 4.2L",
+		"cars_month": "May - Oct.",
+		"cars_cost1": "150 $",
+		"cars_cost2": "120 $"
+	},
+	"rentalMoto": {
+		"title": "Yamaha XT 600 E",
+		"description1": "The XT is the world famous single cylinder indestructible mate! It boasts 40 years of development history and is therefore a very well proven, reliable and robust Enduro. The engine still works with a carburetor, but no matter the elevation, the XT doesn't bother. With its 178kg / 39PS / air cooled, it is still a record holder among its competitors.",
+		"description2": "Since 2019 we have 3 XT's available, one with an extended 23L-Tank. All of our vehicles are freshly imported from Switzerland. We value having high quality vehicles with low mileage.",
+		"rateTable": {
+			"ratePerDay": "rate per day",
+			"1To7Days": "1-7 days",
+			"8To20Days": "8-20 days",
+			"21PlusDays": "21 days plus"
+		},
+		"deposit": "deposit in cash: 600$",
+		"unlimitedKm": "unlimited km",
+		"insurance": "insurance (comprehensive coverage) optional: 15$/day",
+		"tpanniers": "tpanniers 30L each side (Enduristan Monsun3) / top case not provided",
+		"crashBars": "crash bars, 12V-Socket",
+		"bikeTanks": "All bikes with 17L-tanks / 3 bike with 23L-tank",
+		"seatHeight": "seat height: 840mm",
+		"ramHolder": "Extra RAM Holder for the handle bar 1$/day, 12V socket is installed at the bike.",
+		"rideableIn": "ride-able in: Kyrgyzstan, Tajikistan, Uzbekistan, Kazakhstan",
+		"notRideableIn": "not ride-able in: China, Afghanistan, Turkmenistan, Iran",
+		"bookNow": "BOOK NOW",
+		"moto1": {
+			"name": "YAMAHA XT 600",
+			"month": "May - Sept",
+			"cost1": "100 $",
+			"cost2": "95 $",
+			"cost3": "upon request"
+		},
+		"moto2": {
+			"name": "YAMAHA TENERE 660",
+			"month": "May - Sept",
+			"cost1": "180 $",
+			"cost2": "150 $",
+			"cost3": "upon request"
+		}
+	},
+	"climatInfo": {
+		"title": "BREATHTAKING LANDSCAPES. REMOTE NATURE ROADS. RIDING WITHOUT BOUNDARIES.",
+		"heading": "Climate, Weather, Valleys, and High Mountains (in Kyrgyz: AlaToo)",
+		"description": "Kyrgyzstan is very mountainous, and the landscape is breathtakingly beautiful. Fertile lowlands, lakes, and mountains up to 7000 m high define the country. On our tours, it can be 40°C warm in the lowlands, and at night at high altitudes, temperatures can often drop below 0°C. The roads are often dusty and very dry. Rain occurs occasionally. We also cross streams from time to time. For this reason, sturdy motorcycle boots and protective gear are essential. On sections with rough gravel, you might even ride standing."
+	},
+	"trips": {
+		"customized_tour": {
+			"title": "Customized motorcycle guided tour with support cars 4x4 for your own group.",
+			"address": "Motorradreisen Swiss, Kyrgyzstan | Round trip."
+		},
+		"rent_motorcycle": {
+			"title": "Rent a motorcycle – ride by yourself / Rent a Yamaha XT600E and travel alone or with friends.",
+			"address": "Osh, Kyrgyzstan"
+		},
+		"service_repair": {
+			"title": "Motorcycle service and self-repair, we provide tools and space.",
+			"address": "Osh, Kyrgyzstan | Round trip."
+		},
+		"customized_tour_group": {
+			"title": "Customized motorcycle tour for your own group.",
+			"address": "Osh, Kyrgyzstan | Round trip."
+		},
+		"oil_tires": {
+			"title": "Oil and Tires change, you can find good tires, inner tubes for CFR 250 XT, MITAS, SHINKO, HEIDENAU.",
+			"address": "Osh, Kyrgyzstan | Round trip."
+		},
+		"support_rentals": {
+			"title": "We can support you with arranging rental cars 4x4.",
+			"address": "Osh, Kyrgyzstan | Round trip."
+		},
+		"learn_more": "LEARN MORE",
+		"title": "Available trips"
+	},
+	"reviews": {
+		"title": "Reviews of Our Kyrgyzstan Motorcycle Tours",
+		"reviews": [
+			{
+				"name": "John Doe",
+				"date": "January 20, 2025",
+				"text": "Unforgettable motorcycle tour through Kyrgyzstan! The mountain roads and lakes are simply breathtaking."
+			},
+			{
+				"name": "Emma Williams",
+				"date": "January 18, 2025",
+				"text": "Riding through Kyrgyzstan’s valleys and mountains was the experience of a lifetime. Well-organized and thrilling!"
+			},
+			{
+				"name": "James Smith",
+				"date": "January 15, 2025",
+				"text": "Amazing tour across Kyrgyzstan. The landscapes were stunning, and the support team was incredibly helpful."
+			},
+			{
+				"name": "Sophia Brown",
+				"date": "January 10, 2025",
+				"text": "Kyrgyzstan's roads are a motorcyclist’s dream! Great adventure and beautiful places to explore."
+			}
+		]
+	},
+	"mainRental": {
+		"discoverNow": "DISCOVER NOW – WE ALSO SPEAK RUSSIAN – WE ALSO SPEAK ENGLISH",
+		"title": "MOTORCYCLE AND CARS RENTAL",
+		"introText": "It’s a great feeling to ride through the magnificent mountain landscapes of Kyrgyzstan or the Pamir Mountains. Children and adults wave at us or honk – we are welcome everywhere. Europeans do not need a visa. We have very direct and affordable flight connections via Istanbul with Pegasus (flypgs.com) directly to Osh, Kyrgyzstan, our base in Central Asia. Are you in the mood for breathtaking landscapes, empty roads, and endless gravel tracks? Would you like to discover a new country safely and in an organized way while gaining cultural insights with expert guidance? Then you are in the right place.For more information, please check the individual tours. If you have any questions or concerns, feel free to send an email or call us – we will get back to you immediately. Our Swiss Mine Partners organize custom group tours – Nous organisons aussi des Tours en Groupe en Français – We also organize group tours in English.",
+		"pressHere": "PRESS HERE"
+	},
+	"main": {
+		"discover": "DISCOVER NOW",
+		"speak_russian": "WE ALSO SPEAK RUSSIAN",
+		"speak_english": "WE ALSO SPEAK ENGLISH",
+		"title": "MOTORCYCLE RENTAL, SERVICE AND GUIDED TOURS SUPPORT",
+		"description": "It’s a great feeling to ride through the magnificent mountain landscapes of Kyrgyzstan or the Pamir Mountains. Children and adults wave at us or honk – we are welcome everywhere. Europeans do not need a visa. We have very direct and affordable flight connections via Istanbul with Pegasus (flypgs.com) directly to Osh, Kyrgyzstan, our base in Central Asia. Are you in the mood for breathtaking landscapes, empty roads, and endless gravel tracks? Would you like to discover a new country safely and in an organized way while gaining cultural insights with expert guidance? Then you are in the right place. For more information, please check the individual tours. If you have any questions or concerns, feel free to send an email or call us – we will get back to you immediately. Our Swiss partners organize custom group tours – Nous organisons aussi des Tours en Groupe en Français – We also organize group tours in English.",
+		"press_here": "PRESS HERE"
+	},
+	"serviceMain": {
+		"discover": "DISCOVER NOW",
+		"speak_russian": "WE ALSO SPEAK RUSSIAN",
+		"speak_english": "WE ALSO SPEAK ENGLISH",
+		"title": "MOTORCYCLE REPAIR, SERVICE AND GUIDED TOURS SUPPORT",
+		"description": "It’s a great feeling to ride through the magnificent mountain landscapes of Kyrgyzstan or the Pamir Mountains. Children and adults wave at us or honk – we are welcome everywhere. Europeans do not need a visa. We have very direct and affordable flight connections via Istanbul with Pegasus (flypgs.com) directly to Osh, Kyrgyzstan, our base in Central Asia. Are you in the mood for breathtaking landscapes, empty roads, and endless gravel tracks? Would you like to discover a new country safely and in an organized way while gaining cultural insights with expert guidance? Then you are in the right place. For more information, please check the individual tours. If you have any questions or concerns, feel free to send an email or call us – we will get back to you immediately. Our Swiss partners organize custom group tours – Nous organisons aussi des Tours en Groupe en Français – We also organize group tours in English.",
+		"press_here": "PRESS HERE"
 	}
-  }
-  
+}

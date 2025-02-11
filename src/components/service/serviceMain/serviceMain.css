@@ -83,7 +83,7 @@
 /* 📏 Экраны до 768px (планшеты) */
 @media (max-width: 768px) {
 	.main_container {
-		padding-left: 20px;
+		padding: 20px;
 	}
 
 	.main h1 {
@@ -114,13 +114,17 @@
 /* 📏 Экраны до 480px (смартфоны) */
 @media (max-width: 480px) {
 	.main_container {
-		padding-left: 10px;
+		padding: 10px;
 		height: auto;
-		padding-top: 20px;
+	}
+
+	.main{
+		gap: 10px;
 	}
 
 	.main h1 {
-		font-size: 24px;
+		font-size: 16px;
+		text-align: center;
 	}
 
 	.main h3 {
@@ -129,13 +133,27 @@
 	}
 
 	.main_text {
-		font-size: 14px;
+		font-size: 12px;
 		max-width: 300px;
+		width: 100%;
+		height: 500px;
+		text-align: center;
+		margin: -50px auto;
+		
+	}
+
+	.alatoo-moto-btn{
+		display: flex;
+		justify-content: center;
+	}
+
+	.alatoo-moto-btn .tripsBtn-main{
+		padding: 7px 14px;
 	}
 }
 
 /* 📏 Экраны до 250px (очень маленькие устройства) */
-@media (max-width: 250px) {
+@media (max-width: 280px) {
 	.main_container {
 		padding: 10px;
 		height: auto;
@@ -152,5 +170,7 @@
 	.main_text {
 		font-size: 10px;
 		text-align: center;
+		height: 450px;
+
 	}
 }

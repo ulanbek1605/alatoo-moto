@@ -1,54 +1,58 @@
-'use client'
-import React from "react";
+'use client';
+import React from 'react';
+import { useTranslation } from 'react-i18next';
+import '../../app/i18n';
 
 const Partners = () => {
+  const { t } = useTranslation();
+
   const partners = [
     {
-      name: "Enduristan",
-      description: "Supplier of SWM Superdual X motorcycles and spare parts.",
-      image: "/image/enduristan.jfif",
+      name: t('partners.enduristan.name'),
+      description: t('partners.enduristan.description'),
+      image: '/image/enduristan.jfif',
       sayt: 'https://enduristan.ch/',
     },
     {
-      name: "Yamaha and Honda",
-      description: "Trusted partners for motorcycle rentals and support.",
-      image: "/image/yamaha.png",
+      name: t('partners.yamaha.name'),
+      description: t('partners.yamaha.description'),
+      image: '/image/yamaha.png',
       sayt: '',
     },
     {
-      name: "Oil and Consumables Suppliers",
-      description: "Reliable providers of high-quality oils and consumables.",
-      image: "/image/Motul.jpg",
+      name: t('partners.oil.name'),
+      description: t('partners.oil.description'),
+      image: '/image/Motul.jpg',
       sayt: 'https://mollubricants.com/en/',
     },
     {
-      name: "ALATOO-MOTO Swiss",
-      description: "Partners for planning and organizing travel routes and assiting for guyded tours for german,french and english speaking groups.",
-      image: "/image/alatoo.jfif",
+      name: t('partners.alatoo.name'),
+      description: t('partners.alatoo.description'),
+      image: '/image/alatoo.jfif',
       sayt: 'https://www.alatoo-moto.com/',
     },
     {
-      name: "OSH DESTINATION",
-      description: "Partners for planning and organizing travel routes.With in Kyrgyzstan.Assitinng tours in to Pamir and Uzbekistan",
-      image: "/image/osh.jpg",
+      name: t('partners.osh.name'),
+      description: t('partners.osh.description'),
+      image: '/image/osh.jpg',
       sayt: 'https://destinationosh.com/en/',
     },
     {
-      name: "Hotel Classic",
-      description: "Booking hotel rooms,restorount and pool.",
-      image: "/image/classic.jfif",
+      name: t('partners.hotel.name'),
+      description: t('partners.hotel.description'),
+      image: '/image/classic.jfif',
       sayt: 'https://classichotel.kg/',
     },
   ];
 
   return (
     <div className="container">
-      <h1 className="title">Our Partners</h1>
+      <h1 className="title">{t('partners.title')}</h1>
       <div className="partners-list">
         {partners.map((partner, index) => (
           partner && (
             <a href={partner.sayt} key={index} className="card_partner">
-              <div className="partner-card" >
+              <div className="partner-card">
                 <img src={partner.image} alt={partner.name} className="partner-image" />
                 <h2 className="partner-name">{partner.name}</h2>
                 <p className="partner-description">{partner.description}</p>
@@ -57,7 +61,6 @@ const Partners = () => {
           )
         ))}
       </div>
-
 
       <style jsx>{`
         .container {
@@ -100,10 +103,29 @@ const Partners = () => {
           font-size: 16px;
           color: #555;
         }
-        .card_partner{
-            color: black;
+        .card_partner {
+          color: black;
         }
-     
+
+
+        @media(max-width: 480px){
+          .container {
+            padding: 10px;
+          }
+          .title{
+           font-size: 20px;
+           font-weight: bold;
+           margin-bottom: 10px;
+        }
+
+        .partner-name{
+          font-size: 16px;
+
+        }
+
+        .partner-description{
+          font-size: 14px;
+        }
       `}</style>
     </div>
   );

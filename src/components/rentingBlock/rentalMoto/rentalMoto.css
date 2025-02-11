@@ -68,54 +68,88 @@
 	margin: 20px 0;
 	font-size: 16px;
 	text-align: left;
-  }
-  
-  .rate-table th {
-	background-color: #3c3f3b; /* Темно-зеленый */
+}
+
+.rate-table th {
+	background-color: #3c3f3b;
+	/* Темно-зеленый */
 	color: white;
 	padding: 10px;
-  }
-  
-  .rate-table td {
+}
+
+.rate-table td {
 	padding: 10px;
 	border: 1px solid #d9d9d9;
-  }
-  
-  .rate-table tr:nth-child(even) {
-	background-color: #e6e6e6; /* Светлый фон */
-  }
-  
-  .rate-table tr:nth-child(odd) {
-	background-color: #f6f6f6; /* Чуть темнее */
-  }
-  
-  .rate-table td:nth-child(1) {
+}
+
+.rate-table tr:nth-child(even) {
+	background-color: #e6e6e6;
+	/* Светлый фон */
+}
+
+.rate-table tr:nth-child(odd) {
+	background-color: #f6f6f6;
+	/* Чуть темнее */
+}
+
+.rate-table td:nth-child(1) {
 	font-weight: bold;
-  }
-  
-  .rate-table td:last-child {
+}
+
+.rate-table td:last-child {
 	text-align: center;
-  }
+}
 
 
-  .spisok1 span {
+.spisok1 span {
 	font-weight: bold;
 }
 
 
-.rentalMoto-block{
+.rentalMoto-block {
 	display: flex;
 	justify-content: space-around;
 }
-  
-.rentalMoto-block-img{
+
+.rentalMoto-block-img {
 	margin-top: 40px;
+}
+
+
+@media (max-width: 1050px) {
+	.rentalMoto-block {
+		/* flex-direction: column; */
+		justify-content: center;
+		gap: 20px;
+	}
+}
+
+
+@media(max-width: 900px) {
+	.rentalMoto-block {
+		flex-direction: column;
+	}
+
+	.rentalMoto-block-img {
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	.rental-table-block {
+		display: flex;
+		justify-content: center;
+	}
+
+	.spisok1 {
+		display: flex;
+		justify-content: center;
+	}
 }
 
 @media(max-width: 800px) {
 
 	.rentalMoto-container {
-		padding: 30px 40px;
+		padding: 30px 30px;
 	}
 
 	.rentalMoto-title h2 {
@@ -126,6 +160,68 @@
 
 	.rentalMoto-title p {
 		font-size: 13px;
+		width: 100%;
+	}
+
+}
+
+
+@media(max-width: 650px) {
+	.rentalMoto-container {
+		padding: 0px 20px;
+	}
+}
+
+@media(max-width: 480px) {
+	.rentalMoto-container {
+		padding: 0 10px;
+	}
+
+	.rentalMoto-block {
+		gap: 10px;
+	}
+
+	.rental-table-block {
+		margin-bottom: 0px;
+	}
+
+	.rate-table th {
+		padding: 5px;
+		font-size: 11px;
+		text-wrap: nowrap;
+	}
+
+	.rate-table td {
+		padding: 5px;
+		font-size: 11px;
+		text-wrap: nowrap;
+	}
+
+	.spisok1 {
+		font-size: 13px;
+	}
+
+	.spisok1 ul li {
+		list-style: none;
+	}
+
+	.rental_btn {
+		height: 80px;
+	}
+
+	.rentalMoto-title h2{
+		font-size: 20px;
+	}
+
+
+}
+
+@media (max-width: 400px){
+	.rate-table th:last-child{
+		display: none;
+	}
+	.rate-table td:last-child{
+		display: none;
 	}
 
 }

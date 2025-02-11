@@ -93,7 +93,7 @@ function rentalSuperdual() {
 						<table className="rate-table">
 							<thead>
 								<tr>
-									<th colSpan="2">rate per day</th>
+									<th colSpan={2}>rate per day</th>
 									<th>1-7 days</th>
 									<th>8-20 days</th>
 									<th>21 days plus</th>

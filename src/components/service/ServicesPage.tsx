@@ -1,10 +1,14 @@
+'use client'
 import React from "react";
+import { useTranslation } from "react-i18next";
 import "./servicesPage.css";
 
 const ServicesPage = () => {
+  const { t } = useTranslation();
+
   return (
     <div className="services-page">
-      <h1 className="services-title">Services</h1>
+      <h1 className="services-title">{t('service.services')}</h1>
 
       <div className="service-block">
         <div className="service-icon">
@@ -19,16 +23,9 @@ const ServicesPage = () => {
           </svg>
         </div>
         <div className="service-content">
-          <h2>Tire Reservation</h2>
-          <p>
-            Want to make sure your tire is ready for you? Send us an email with
-            your specifications. A 50% down payment is required to reserve your
-            tires. Payment is made via bank transfer in Euro or USD.
-          </p>
-          <p>
-            In case of a cancellation of your reservation, we keep 50% of your
-            down payment.
-          </p>
+        <h2>{t('service.tireReservation')}</h2>
+          <p>{t('service.tireReservationDescription')}</p>
+          <p>{t('service.cancellationPolicy')}</p>
         </div>
       </div>
 
@@ -45,13 +42,8 @@ const ServicesPage = () => {
           </svg>
         </div>
         <div className="service-content">
-          <h2>Mechanical Service</h2>
-          <p>
-            We offer simple services like oil and air filter changes. We do not
-            provide deep engine maintenance. In April, we open our doors for
-            mechanical service and self-maintenance options. Winter season only
-            upon request. -> Pricing see PDF.
-          </p>
+        <h2>{t('service.mechanicalService')}</h2>
+        <p>{t('service.mechanicalServiceDescription')}</p>
         </div>
       </div>
 
@@ -69,12 +61,8 @@ const ServicesPage = () => {
           </svg>
         </div>
         <div className="service-content">
-          <h2>Motorbike Parking</h2>
-          <p>
-            Some people need a storage place for the winter, while others need
-            a parking spot for a quick trip to China. Osh is a strategic location
-            near the Pamir Highway for your journey.
-          </p>
+        <h2>{t('service.motorbikeParking')}</h2>
+        <p>{t('service.motorbikeParkingDescription')}</p>
         </div>
       </div>
 
@@ -91,13 +79,8 @@ const ServicesPage = () => {
           </svg>
         </div>
         <div className="service-content">
-          <h2>Mini-Hotel</h2>
-          <p>
-            For your convenience, we offer a mini-hotel. You can stay with us
-            for a few days to rest after long travels or before the next part of
-            your journey. Cozy rooms and a pleasant atmosphere will ensure a
-            comfortable stay.
-          </p>
+        <h2>{t('service.miniHotel')}</h2>
+        <p>{t('service.miniHotelDescription')}</p>
         </div>
       </div>
 
@@ -114,14 +97,12 @@ const ServicesPage = () => {
           </svg>
         </div>
         <div className="service-content">
-          <h2>Amenities</h2>
-          <p>
-            Amenities for a full-service day at Alatoo Moto:
-          </p>
+        <h2>{t('service.amenities')}</h2>
+          <p>{t('service.amenitiesDescription')}</p>
           <ul>
-            <li>Wi-Fi is available at our shop and self-service area.</li>
-            <li>A cozy air-conditioned café is next door.</li>
-            <li>Several restaurants just across the street.</li>
+          <li>{t('service.amenitiesList1')}</li>
+            <li>{t('service.amenitiesList2')}</li>
+            <li>{t('service.amenitiesList3')}</li>
           </ul>
         </div>
       </div>

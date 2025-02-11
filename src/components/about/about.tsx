@@ -1,23 +1,19 @@
-'use client'
-import React from "react";
-import Link from "next/link";
+'use client';
+import React from 'react';
+import { useTranslation } from 'react-i18next';
+import '../../app/i18n';
 
 const About = () => {
+  const { t } = useTranslation();
+
   return (
     <div className="container">
-      <h1 className="title">About Us</h1>
+      <h1 className="title">{t('about.title')}</h1>
       <div className="content">
-        <p>
-          Welcome to our company! We specialize in providing high-quality motorcycle and car rental services, along with professional maintenance and repair solutions. Located in Osh, South Kyrgyzstan, we have been proudly serving adventurers and travelers since 2015.
-        </p>
-        <p>
-          Our mission is to empower exploration and adventure by offering reliable vehicles and expert services. Whether you're embarking on a thrilling journey through Central Asia or simply need a dependable rental, we've got you covered.
-        </p>
-        <p>
-          We take pride in our experienced team, who are passionate about delivering exceptional customer service and ensuring your safety and satisfaction. Join us and explore the beauty of Kyrgyzstan with confidence and ease.
-        </p>
+        <p>{t('about.paragraph1')}</p>
+        <p>{t('about.paragraph2')}</p>
+        <p>{t('about.paragraph3')}</p>
       </div>
-    
 
       <style jsx>{`
         .container {
@@ -38,14 +34,27 @@ const About = () => {
           color: #333;
           margin-bottom: 20px;
         }
-        .back-link {
-          display: inline-block;
-          margin-top: 20px;
-          text-decoration: none;
-          color: blue;
+
+        @media(max-width: 650px){
+            .content {
+          font-size: 18px;
+          text-align: center;
         }
-        .back-link:hover {
-          text-decoration: underline;
+
+          @media(max-width: 450px){
+               .container {
+                padding: 10px;
+               }
+            .content {
+            font-size: 14px;
+               
+            .title {
+               margin-bottom: 0px;
+            }
+          }
+
+
+        
         }
       `}</style>
     </div>

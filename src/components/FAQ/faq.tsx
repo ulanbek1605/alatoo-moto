@@ -11,7 +11,7 @@ const PaymentInfo = () => {
   if (!ready) return <div>Loading translations...</div>; // Добавляем заглушку
   return (
     <div>
-      <Main />
+      {/* <Main /> */}
 
       <div className="payment_container">
         <h2>{t('shipping.title')}</h2>

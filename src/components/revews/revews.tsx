@@ -1,4 +1,3 @@
-// components/MotoTourReviews.tsx
 'use client'
 
 import React from 'react';
@@ -8,47 +7,25 @@ import 'swiper/css/pagination'; // Подключаем стили пагина�
 
 // Импортируем необходимые модули
 import { Pagination, Autoplay } from 'swiper/modules';
+import { useTranslation } from 'react-i18next'; // Подключаем i18n
 
 import './revews.css';
 
-const reviews = [
-  {
-    id: 1,
-    name: "John Doe",
-    date: "January 20, 2025",
-    text: "Unforgettable motorcycle tour through Kyrgyzstan! The mountain roads and lakes are simply breathtaking.",
-  },
-  {
-    id: 2,
-    name: "Emma Williams",
-    date: "January 18, 2025",
-    text: "Riding through Kyrgyzstan’s valleys and mountains was the experience of a lifetime. Well-organized and thrilling!",
-  },
-  {
-    id: 3,
-    name: "James Smith",
-    date: "January 15, 2025",
-    text: "Amazing tour across Kyrgyzstan. The landscapes were stunning, and the support team was incredibly helpful.",
-  },
-  {
-    id: 4,
-    name: "Sophia Brown",
-    date: "January 10, 2025",
-    text: "Kyrgyzstan's roads are a motorcyclist’s dream! Great adventure and beautiful places to explore.",
-  },
-];
-
 const MotoTourReviews = () => {
+  const { t } = useTranslation();
+
+  const reviews: any = t('reviews.reviews', { returnObjects: true });
+
   return (
     <div className="moto-tour-reviews-container">
-      <h2>Reviews of Our Kyrgyzstan Motorcycle Tours</h2>
+      <h2>{t('reviews.title')}</h2>
       <Swiper
         spaceBetween={20}
         slidesPerView={1}
         loop={true} // Включаем бесконечную прокрутку
         autoplay={{ delay: 3000, disableOnInteraction: false }} // Автопрокрутка с задержкой 3 секунды
         pagination={{ clickable: true }} // Пагинация отключена
-        modules={[ Autoplay]} // Подключаем модули
+        modules={[Autoplay]} // Подключаем модули
         breakpoints={{
           768: {
             slidesPerView: 2,
@@ -58,7 +35,7 @@ const MotoTourReviews = () => {
           },
         }}
       >
-        {reviews.map((review, index) => (
+        {reviews?.map((review: any, index: number) => (
           <SwiperSlide key={index} className="review-slide">
             <div className="review">
               <h3>{review.name}</h3>

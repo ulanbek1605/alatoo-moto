@@ -7,16 +7,16 @@
 	background-color: #f9f9f9;
 	max-width: 1300px;
 	width: 100%;
-  }
-  
-  .services-title {
+}
+
+.services-title {
 	text-align: center;
 	font-size: 2rem;
 	color: #333;
 	margin-bottom: 30px;
-  }
-  
-  .service-block {
+}
+
+.service-block {
 	display: flex;
 	align-items: flex-start;
 	background-color: white;
@@ -24,46 +24,96 @@
 	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 	margin-bottom: 20px;
 	padding: 20px;
-  }
-  
-  .service-icon {
+}
+
+.service-icon {
 	width: 40px;
 	height: 40px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	margin-right: 20px;
-  }
-  
-  .service-content {
+}
+
+.service-content {
 	flex-grow: 1;
-  }
-  
-  .service-content h2 {
+}
+
+.service-content h2 {
 	font-size: 1.5rem;
 	color: #333;
 	margin-bottom: 10px;
-  }
-  
-  .service-content p {
+}
+
+.service-content p {
 	font-size: 1rem;
 	color: #555;
 	line-height: 1.5;
-  }
-  
-  .service-content ul {
+}
+
+.service-content ul {
 	list-style-type: none;
 	padding: 0;
-  }
-  
-  .service-content ul li {
+}
+
+.service-content ul li {
 	font-size: 1rem;
 	color: #555;
-  }
-  
-  .service-block svg {
+}
+
+.service-block svg {
 	width: 24px;
 	height: 24px;
 	fill: #333;
-  }
-  
+}
+
+
+@media(max-width: 780px) {
+	.services-page {
+		padding: 20px;
+
+	}
+}
+
+
+@media (max-width: 600px) {
+	.services-title {
+		font-size: 1.5rem;
+		margin-bottom: 15px;
+	}
+
+
+	.service-block {
+		padding: 10px;
+		margin-bottom: 10px;
+	}
+
+	.service-content h2 {
+		font-size: 1rem;
+		margin-bottom: 2px;
+	}
+
+	.service-content p {
+		font-size: 0.7rem;
+	}
+
+	.service-content ul li {
+		font-size: 0.7rem;
+	}
+
+	.service-content:last-child {
+		margin-left: -10px;
+	}
+
+	.service-icon {
+		width: 26px;
+		height: 25px;
+	}
+}
+
+
+@media(max-width: 450px){
+	.services-page{
+		padding: 10px;
+	}
+}

@@ -92,8 +92,8 @@
 	}
 
 	.main {
-		padding: 25px 0;
-	}
+        padding: 45px 0 0;
+    }
 	
 	.main_text {
 		max-width: 350px;
@@ -114,25 +114,34 @@
 /* 📏 Экраны до 480px (смартфоны) */
 @media (max-width: 480px) {
 	.main_container {
-		padding-left: 10px;
+		/* padding-left: 10px; */
 		height: auto;
-		padding-top: 20px;
+		padding: 20px 10px;
+		/* padding-top: 20px; */
 	}
 
 	.main h1 {
-		font-size: 24px;
+		font-size: 16px;
 	}
 
 	.main h3 {
 		font-size: 16px;
-		text-align: center;
 	}
 
 	.main_text {
-		font-size: 14px;
+		font-size: 10px;
 		max-width: 300px;
+		height: 400px;
+	}
+
+	.alatoo-moto-btn .tripsBtn-main{
+		padding: 7px 14px;
+		font-size: 14px;
 	}
 }
+
+
+
 
 /* 📏 Экраны до 250px (очень маленькие устройства) */
 @media (max-width: 250px) {
@@ -143,14 +152,21 @@
 
 	.main h1 {
 		font-size: 18px;
+		text-align: center;
 	}
 
 	.main h3 {
 		font-size: 12px;
+		text-align: center;
 	}
 
 	.main_text {
 		font-size: 10px;
 		text-align: center;
+	}
+
+	.alatoo-moto-btn {
+	display: flex;
+	justify-content: center;
 	}
 }

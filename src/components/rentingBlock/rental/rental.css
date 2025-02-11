@@ -108,68 +108,47 @@
 	border-collapse: collapse;
 	font-size: 16px;
 	background-color: #f4f4ec;
-  }
-  
- .styled-table thead {
-	background-color: #444b3b; /* Тёмно-зелёный фон */
-	color: white; /* Белый текст */
-  }
-  
- .styled-table thead th {
+}
+
+.styled-table thead {
+	background-color: #444b3b;
+	/* Тёмно-зелёный фон */
+	color: white;
+	/* Белый текст */
+}
+
+.styled-table thead th {
 	padding: 10px;
 	text-align: left;
 	font-weight: bold;
-  }
-  
- .styled-table tbody tr:nth-child(odd) {
-	background-color: #d4dac5; /* Светло-зелёный */
-  }
-  
- .styled-table tbody tr:nth-child(even) {
-	background-color: #bfcbb1; /* Тёмно-зелёный */
-  }
-  
-.styled-table  tbody td {
+}
+
+.styled-table tbody tr:nth-child(odd) {
+	background-color: #d4dac5;
+	/* Светло-зелёный */
+}
+
+.styled-table tbody tr:nth-child(even) {
+	background-color: #bfcbb1;
+	/* Тёмно-зелёный */
+}
+
+.styled-table tbody td {
 	padding: 10px;
 	border: 1px solid #d9d9d9;
-  }
-  
-.styled-table  td {
+}
+
+.styled-table td {
 	border: none;
 	text-align: left;
-	color: #333; /* Тёмный текст */
-  }
-  
-  /* th {
-	border-bottom: 2px solid #d9d9d9;
-  }
-   */
-  /* table th:first-child,
-  table td:first-child {
-	border-right: 2px solid #d9d9d9;
-   } */ 
-  
-
-@media(max-width: 800px) {
-
-	.rentalContainer {
-		padding: 30px 40px;
-	}
-
-	.rental-info h2 {
-		font-size: 34px;
-		letter-spacing: 0.06em;
-	}
-
-	.rental-info h6 {
-		font-size: 15px;
-	}
-
-	.rental-info p {
-		font-size: 13px;
-	}
+	color: #333;
 
 }
+
+
+
+
+
 
 
 
@@ -227,7 +206,58 @@
 	background-color: #0056b3;
 }
 
+
+@media(max-width: 900px) {
+	.rental-block-auto {
+		flex-direction: column;
+		gap: 20px;
+	}
+
+	.rental-block-auto-img {
+		margin: 0 auto;
+	}
+
+	.spisok {
+		margin-top: 15px;
+		display: flex;
+		justify-content: center;
+	}
+
+
+	.rental_btn {
+		height: 80px;
+	}
+}
+
+
+@media(max-width: 800px) {
+
+	.rentalContainer {
+		padding: 30px 40px;
+	}
+
+	.rental-info h2 {
+		font-size: 34px;
+		letter-spacing: 0.06em;
+	}
+
+	.rental-info h6 {
+		font-size: 15px;
+	}
+
+	.rental-info p {
+		font-size: 13px;
+	}
+
+}
+
+
 @media(max-width: 560px) {
+
+	.rentalContainer {
+		padding: 20px 10px;
+	}
+
 	.rental-info h2 {
 		font-size: 23px;
 		letter-spacing: 0.04em;
@@ -260,12 +290,24 @@
 		padding-top: 3px;
 	}
 
+	.spisok {
+		font-size: 13px;
+	}
+
+	.spisok li:nth-child(4) {
+		margin-bottom: 0px;
+	}
+
+	.rental-block-auto {
+		padding: 20px 0 0 0;
+	}
+	
 }
 
 
 @media(max-width: 420px) {
 	.rentalContainer {
-		padding: 20px;
+		padding: 10px;
 	}
 
 	.rental-info {
@@ -290,5 +332,39 @@
 	.rental-auto p {
 		font-size: 11px;
 		padding-top: 3px;
+	}
+
+
+	.styled-table th {
+		font-size: 10px;
+		padding: 5px;
+	}
+
+	.styled-table tbody td {
+		padding: 5px;
+		border: 1px solid #d9d9d9;
+		font-size: 12px;
+	}
+
+	.spisok ul li {
+		list-style: none;
+	}
+}
+
+
+@media(max-width: 330px) {
+	.rental-block-auto .rental-block-auto-img{
+		width: 240px;
+	}
+	.rental-block-auto .photo {
+		max-width: 240px;
+		width: 100%;
+		height: 180px;
+	}
+
+	.rental-block-auto .photo img {
+		max-width: 240px;
+		width: 100%;
+		height: 180px;
 	}
 }

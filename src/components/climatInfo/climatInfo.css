@@ -104,15 +104,44 @@
 	.climatInfo_block {
 		flex-direction: column;
 		gap: 20px;
+		width: 100%;
+		padding: 0 0 5px 0;
+	}
+	.climatInfo_img{
+		max-width: 600px;
+		width: 100%;
+	}
+	img.climatInfoImg {
+		width: 100%;
+		max-width: 600px;
+		
 	}
 
+	.climatInfo_text{
+		max-width: 100%;
+		width: 100%;
+	}
 	.climatInfo_title {
 		font-size: 18px;
-		margin: 25px auto;
+		margin: 15px auto;
 	}
 
 	.gallery {
 		gap: 10px;
+		padding: 25px 0;
 
+	}
+
+	.gallery-item{
+		max-width: 380px;
+	}
+	.gallery-img{
+		width: 100%;
+	}
+}
+
+@media(max-width: 450px){
+	.climat_container{
+		padding: 0 10px;
 	}
 }

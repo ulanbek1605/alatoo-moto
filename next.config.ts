@@ -1,15 +1,8 @@
-import type { NextConfig } from "next";
+import { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-	reactStrictMode: true,
-	i18n: {
-		locales: ['default', 'en'],
-		defaultLocale: 'default',
-		localeDetection: false,
-	},
-	trailingSlash: true,
+  reactStrictMode: true,
+  trailingSlash: true, // Добавляем слэши в конец URL (необязательно)
 };
 
 export default nextConfig;
-
-
