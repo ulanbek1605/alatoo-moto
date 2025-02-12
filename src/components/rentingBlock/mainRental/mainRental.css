@@ -3,7 +3,7 @@
 	width: 100%;
 	height: 100vh;
 	position: relative;
-	background: url('/image/Nature%20KG.jpg');
+	background: url('/image/NatureKG2.jpg');
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -46,7 +46,11 @@
 .main_text {
 	max-width: 500px;
 	width: 100%;
-	margin-top: 30px;
+	margin-top: -30px;
+	word-wrap: break-word;
+	-webkit-hyphens: auto;
+	-ms-hyphens: auto;
+	hyphens: auto;
 }
 
 .alatoo-moto-btn .tripsBtn-main{
@@ -61,12 +65,14 @@
 	font-weight: 600;
 	transition: background-color 0.3s ease;
 	z-index: 2;
+	border: none;
+	-webkit-transition: background-color 0.3s ease;
+	-moz-transition: background-color 0.3s ease;
+	-o-transition: background-color 0.3s ease;
+	-ms-transition: background-color 0.3s ease;
 }
 
-
-
-/* 📏 Экраны до 1024px */
-@media (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
 	.main_container {
 		padding-left: 30px;
 	}
@@ -80,71 +86,75 @@
 	}
 }
 
-/* 📏 Экраны до 768px (планшеты) */
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
 	.main_container {
-		padding-left: 20px;
+		padding: 20px;
 	}
 
 	.main h1 {
 		font-size: 24px;
-		/* text-align: center; */
 	}
 
 	.main {
-        padding: 45px 0 0;
-    }
-	
+		padding: 25px 0;
+	}
+
 	.main_text {
 		max-width: 350px;
-		text-align:start ;
+		text-align:start;
 		margin-top: -50px;
 		font-size: 15px;
-
 	}
+
 	.main h3{
 		font-size: 15px;
-
 	}
-
-
-
 }
 
-/* 📏 Экраны до 480px (смартфоны) */
-@media (max-width: 480px) {
+@media screen and (max-width: 480px) {
 	.main_container {
-		/* padding-left: 10px; */
+		padding: 10px;
 		height: auto;
-		padding: 20px 10px;
-		/* padding-top: 20px; */
+	}
+
+	.main{
+		gap: 10px;
 	}
 
 	.main h1 {
 		font-size: 16px;
+		text-align: center;
 	}
 
 	.main h3 {
 		font-size: 16px;
+		text-align: center;
 	}
 
 	.main_text {
-		font-size: 10px;
+		font-size: 12px;
 		max-width: 300px;
-		height: 400px;
+		width: 100%;
+		height: 500px;
+		text-align: center;
+		margin: -50px auto;
+		word-wrap: break-word;
+		-webkit-hyphens: auto;
+		-ms-hyphens: auto;
+		hyphens: auto;
+	}
+
+	.alatoo-moto-btn{
+		display: flex;
+		justify-content: center;
 	}
 
 	.alatoo-moto-btn .tripsBtn-main{
 		padding: 7px 14px;
-		font-size: 14px;
 	}
 }
 
-
-
-
-/* 📏 Экраны до 250px (очень маленькие устройства) */
-@media (max-width: 250px) {
+@media screen and (max-width: 280px) {
 	.main_container {
 		padding: 10px;
 		height: auto;
@@ -152,21 +162,19 @@
 
 	.main h1 {
 		font-size: 18px;
-		text-align: center;
 	}
 
 	.main h3 {
 		font-size: 12px;
-		text-align: center;
 	}
 
 	.main_text {
 		font-size: 10px;
 		text-align: center;
-	}
-
-	.alatoo-moto-btn {
-	display: flex;
-	justify-content: center;
+		height: 450px;
+		word-wrap: break-word;
+		-webkit-hyphens: auto;
+		-ms-hyphens: auto;
+		hyphens: auto;
 	}
 }

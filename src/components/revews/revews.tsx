@@ -14,8 +14,33 @@ import './revews.css';
 const MotoTourReviews = () => {
   const { t } = useTranslation();
 
-  const reviews: any = t('reviews.reviews', { returnObjects: true });
-
+  // const reviews: any = t('reviews.reviews', { returnObjects: true });
+  const reviews = [
+    {
+      id: 1,
+      name: t('reviews.reviews1.name'),
+      date: t('reviews.reviews1.date'),
+      text: t('reviews.reviews1.text')
+    },
+    {
+      id: 2,
+      name: t('reviews.reviews2.name'),
+      date: t('reviews.reviews2.date'),
+      text: t('reviews.reviews2.text')
+    },
+    {
+      id: 3,
+      name: t('reviews.reviews3.name'),
+      date: t('reviews.reviews3.date'),
+      text: t('reviews.reviews3.text')
+    },
+    {
+      id: 4,
+      name: t('reviews.reviews4.name'),
+      date: t('reviews.reviews4.date'),
+      text: t('reviews.reviews4.text')
+    }
+  ]
   return (
     <div className="moto-tour-reviews-container">
       <h2>{t('reviews.title')}</h2>

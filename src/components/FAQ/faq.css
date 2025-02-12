@@ -4,8 +4,10 @@
 	width: 100%;
 	padding: 20px 60px;
 	margin: 0 auto;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
 }
-
 
 .payment_container section {
 	margin-bottom: 20px;
@@ -14,13 +16,18 @@
 .payment_container h2 {
 	font-size: 1.5rem;
 	margin-bottom: 10px;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 .payment_container p {
 	font-size: 1rem;
 	color: #555;
-}
+	margin-bottom: 10px;
 
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
 
 @media(max-width: 870px) {
 	.payment_container {
@@ -31,18 +38,21 @@
 @media(max-width: 480px){
 	.payment_container section {
 		margin-bottom: 10px;
-
 	}
 	
 	.payment_container h2 {
 		font-size: 1.1rem;
 		margin-bottom: 7px;
 		text-align: center;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
 	}
 	
 	.payment_container p {
 		font-size: 0.8rem;
 		color: #555;
 		text-align: center;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
 	}
 }

@@ -63,69 +63,68 @@ const Partners = () => {
       </div>
 
       <style jsx>{`
-        .container {
-          max-width: 900px;
-          margin: 0 auto;
-          padding: 20px;
-          font-family: Arial, sans-serif;
-        }
-        .title {
-          font-size: 28px;
-          font-weight: bold;
-          margin-bottom: 20px;
-          text-align: center;
-        }
-        .partners-list {
-          display: grid;
-          grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-          gap: 20px;
-        }
-        .partner-card {
-          border: 1px solid #ddd;
-          border-radius: 10px;
-          padding: 15px;
-          text-align: center;
-          box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        }
-        .partner-image {
-          width: 100%;
-          height: 150px;
-          object-fit: cover;
-          border-radius: 8px;
-          margin-bottom: 10px;
-        }
-        .partner-name {
-          font-size: 20px;
-          font-weight: bold;
-          margin: 10px 0;
-        }
-        .partner-description {
-          font-size: 16px;
-          color: #555;
-        }
-        .card_partner {
-          color: black;
-        }
+      .container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+.title {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.partners-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+.partner-card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.partner-image {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+.partner-name {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+.partner-description {
+  font-size: 16px;
+  color: #555;
+}
+.card_partner {
+  color: black;
+}
 
-
-        @media(max-width: 480px){
-          .container {
-            padding: 10px;
-          }
-          .title{
-           font-size: 20px;
-           font-weight: bold;
-           margin-bottom: 10px;
-        }
-
-        .partner-name{
-          font-size: 16px;
-
-        }
-
-        .partner-description{
-          font-size: 14px;
-        }
+@media (max-width: 480px) {
+  .container {
+    padding: 10px;
+  }
+  .title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .partner-name {
+    font-size: 16px;
+  }
+  .partner-description {
+    font-size: 14px;
+  }
+}
       `}</style>
     </div>
   );

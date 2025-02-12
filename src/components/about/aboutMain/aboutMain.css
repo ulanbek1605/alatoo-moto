@@ -1,3 +1,5 @@
+/* Добавлена кроссбраузерная поддержка */
+
 .main_container {
 	max-width: 1300px;
 	width: 100%;
@@ -10,6 +12,8 @@
 	margin: 60px auto 0;
 	padding-left: 60px;
 	overflow: hidden;
+	display: -webkit-box;
+	display: -ms-flexbox;
 }
 
 .main_container::before {
@@ -28,7 +32,10 @@
 	position: relative;
 	z-index: 2;
 	padding: 60px 0 0 0;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
+	-ms-flex-direction: column;
 	flex-direction: column;
 	gap: 20px;
 	color: white;
@@ -59,12 +66,13 @@
 	text-decoration: none;
 	border-radius: 5px;
 	font-weight: 600;
+	-webkit-transition: background-color 0.3s ease;
+	-o-transition: background-color 0.3s ease;
 	transition: background-color 0.3s ease;
 	z-index: 2;
 }
 
-
-/* 📏 Экраны до 1024px */
+/* Кроссбраузерная адаптивность */
 @media (max-width: 1024px) {
 	.main_container {
 		padding-left: 30px;
@@ -79,7 +87,6 @@
 	}
 }
 
-/* 📏 Экраны до 768px (планшеты) */
 @media (max-width: 768px) {
 	.main_container {
 		padding: 20px;
@@ -87,7 +94,6 @@
 
 	.main h1 {
 		font-size: 24px;
-		/* text-align: center; */
 	}
 
 	.main {
@@ -96,21 +102,15 @@
 	
 	.main_text {
 		max-width: 350px;
-		text-align:start ;
+		text-align:start;
 		margin-top: -50px;
 		font-size: 15px;
-
 	}
 	.main h3{
 		font-size: 15px;
-
 	}
-
-
-
 }
 
-/* 📏 Экраны до 480px (смартфоны) */
 @media (max-width: 480px) {
 	.main_container {
 		padding: 10px;
@@ -138,11 +138,14 @@
 		height: 500px;
 		text-align: center;
 		margin: -50px auto;
-		
 	}
 
 	.alatoo-moto-btn{
+		display: -webkit-box;
+		display: -ms-flexbox;
 		display: flex;
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
 		justify-content: center;
 	}
 
@@ -151,7 +154,6 @@
 	}
 }
 
-/* 📏 Экраны до 250px (очень маленькие устройства) */
 @media (max-width: 280px) {
 	.main_container {
 		padding: 10px;
@@ -170,6 +172,5 @@
 		font-size: 10px;
 		text-align: center;
 		height: 450px;
-
 	}
 }

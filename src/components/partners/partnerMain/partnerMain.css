@@ -10,6 +10,9 @@
 	margin: 60px auto 0;
 	padding-left: 60px;
 	overflow: hidden;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 .main_container::before {
@@ -32,6 +35,8 @@
 	flex-direction: column;
 	gap: 20px;
 	color: white;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 .main h3 span {
@@ -63,7 +68,6 @@
 	z-index: 2;
 }
 
-
 /* 📏 Экраны до 1024px */
 @media (max-width: 1024px) {
 	.main_container {
@@ -87,7 +91,6 @@
 
 	.main h1 {
 		font-size: 24px;
-		/* text-align: center; */
 	}
 
 	.main {
@@ -96,18 +99,14 @@
 	
 	.main_text {
 		max-width: 350px;
-		text-align:start ;
+		text-align: start;
 		margin-top: -50px;
 		font-size: 15px;
-
 	}
+
 	.main h3{
 		font-size: 15px;
-
 	}
-
-
-
 }
 
 /* 📏 Экраны до 480px (смартфоны) */
@@ -138,7 +137,6 @@
 		height: 500px;
 		text-align: center;
 		margin: -50px auto;
-		
 	}
 
 	.alatoo-moto-btn{
@@ -170,6 +168,5 @@
 		font-size: 10px;
 		text-align: center;
 		height: 450px;
-
 	}
 }

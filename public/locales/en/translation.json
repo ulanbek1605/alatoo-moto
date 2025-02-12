@@ -227,28 +227,26 @@
 	},
 	"reviews": {
 		"title": "Reviews of Our Kyrgyzstan Motorcycle Tours",
-		"reviews": [
-			{
-				"name": "John Doe",
-				"date": "January 20, 2025",
-				"text": "Unforgettable motorcycle tour through Kyrgyzstan! The mountain roads and lakes are simply breathtaking."
-			},
-			{
-				"name": "Emma Williams",
-				"date": "January 18, 2025",
-				"text": "Riding through Kyrgyzstan’s valleys and mountains was the experience of a lifetime. Well-organized and thrilling!"
-			},
-			{
-				"name": "James Smith",
-				"date": "January 15, 2025",
-				"text": "Amazing tour across Kyrgyzstan. The landscapes were stunning, and the support team was incredibly helpful."
-			},
-			{
-				"name": "Sophia Brown",
-				"date": "January 10, 2025",
-				"text": "Kyrgyzstan's roads are a motorcyclist’s dream! Great adventure and beautiful places to explore."
-			}
-		]
+		"reviews1": {
+			"name": "John Doe",
+			"date": "January 20, 2025",
+			"text": "Unforgettable motorcycle tour through Kyrgyzstan! The mountain roads and lakes are simply breathtaking."
+		},
+		"reviews2": {
+			"name": "Emma Williams",
+			"date": "January 18, 2025",
+			"text": "Riding through Kyrgyzstan’s valleys and mountains was the experience of a lifetime. Well-organized and thrilling!"
+		},
+		"reviews3": {
+			"name": "James Smith",
+			"date": "January 15, 2025",
+			"text": "Amazing tour across Kyrgyzstan. The landscapes were stunning, and the support team was incredibly helpful."
+		},
+		"reviews4": {
+			"name": "Sophia Brown",
+			"date": "January 10, 2025",
+			"text": "Kyrgyzstan's roads are a motorcyclist’s dream! Great adventure and beautiful places to explore."
+		}
 	},
 	"mainRental": {
 		"discoverNow": "DISCOVER NOW – WE ALSO SPEAK RUSSIAN – WE ALSO SPEAK ENGLISH",
