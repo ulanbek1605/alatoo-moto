@@ -84,7 +84,7 @@
 	},
 	"about": {
 		"title": "About Us",
-		"paragraph1": "Welcome to our company! We specialize in providing high-quality motorcycle and car rental services, along with professional maintenance and repair solutions. Located in Osh, South Kyrgyzstan, we have been proudly serving adventurers and travelers since 2015.",
+		"paragraph1": "Welcome to our company! We specialize in providing high-quality motorcycle rental services, along with professional maintenance and repair solutions. Located in Osh, South Kyrgyzstan, we have been proudly serving adventurers and travelers since 2015.",
 		"paragraph2": "Our mission is to empower exploration and adventure by offering reliable vehicles and expert services. Whether you're embarking on a thrilling journey through Central Asia or simply need a dependable rental, we've got you covered.",
 		"paragraph3": "We take pride in our experienced team, who are passionate about delivering exceptional customer service and ensuring your safety and satisfaction. Join us and explore the beauty of Kyrgyzstan with confidence and ease."
 	},
@@ -133,11 +133,11 @@
 		"amenitiesList3": "Several restaurants just across the street."
 	},
 	"rental": {
-		"title": "Rental Motorbikes + Cars",
+		"title": "Rental Motorbikes",
 		"subtitle": "Our aim is high quality for rental vehicles.",
 		"description": "For the remote regions of Central Asia it is crucial to have some mechanical skills to help yourself in case of a flat tire or other damage. We expect you are able to change and fix a flat tire on the road. Tech equipment for usual emergency procedure is provided. Pick-up / drop-off is in Osh only. There is a direct flight from Istanbul to Osh with Pegasus Airlines.",
 		"carRental": "CAR rental",
-		"fleetInfo": "In our fleet we have 16 Yamaha XT 600 and 3 Yamaha Tenere",
+		"fleetInfo": "In our fleet we have Yamaha XT 600",
 		"carDetails1": "2002 Land cruiser 100 series 4.2 liter diesel, mechanik transmission",
 		"carDetails2": "2000 Land cruiser 78 series 4.2 liter diesel, mechanik transmission",
 		"carDetails3": "2002 Land cruiser 76 series 4.2 liter diesel, mechanik transmission",
@@ -159,7 +159,7 @@
 	"rentalMoto": {
 		"title": "Yamaha XT 600 E",
 		"description1": "The XT is the world famous single cylinder indestructible mate! It boasts 40 years of development history and is therefore a very well proven, reliable and robust Enduro. The engine still works with a carburetor, but no matter the elevation, the XT doesn't bother. With its 178kg / 39PS / air cooled, it is still a record holder among its competitors.",
-		"description2": "Since 2019 we have 3 XT's available, one with an extended 23L-Tank. All of our vehicles are freshly imported from Switzerland. We value having high quality vehicles with low mileage.",
+		"description2": "Since 2019 we have XT's available. ",
 		"rateTable": {
 			"ratePerDay": "rate per day",
 			"1To7Days": "1-7 days",
@@ -199,7 +199,7 @@
 	},
 	"trips": {
 		"customized_tour": {
-			"title": "Customized motorcycle guided tour with support cars 4x4 for your own group.",
+			"title": "Customized motorcycle guided tour with support cars 4x4 for group.",
 			"address": "Motorradreisen Swiss, Kyrgyzstan | Round trip."
 		},
 		"rent_motorcycle": {
@@ -215,13 +215,10 @@
 			"address": "Osh, Kyrgyzstan | Round trip."
 		},
 		"oil_tires": {
-			"title": "Oil and Tires change, you can find good tires, inner tubes for CFR 250 XT, MITAS, SHINKO, HEIDENAU.",
+			"title": "Oil and Tires change, you can find good tires, inner tubes for CFR 250 XT, MITAS, SHINKO.",
 			"address": "Osh, Kyrgyzstan | Round trip."
 		},
-		"support_rentals": {
-			"title": "We can support you with arranging rental cars 4x4.",
-			"address": "Osh, Kyrgyzstan | Round trip."
-		},
+		
 		"learn_more": "LEARN MORE",
 		"title": "Available trips"
 	},
@@ -250,7 +247,7 @@
 	},
 	"mainRental": {
 		"discoverNow": "DISCOVER NOW – WE ALSO SPEAK RUSSIAN – WE ALSO SPEAK ENGLISH",
-		"title": "MOTORCYCLE AND CARS RENTAL",
+		"title": "MOTORCYCLE RENTAL",
 		"introText": "It’s a great feeling to ride through the magnificent mountain landscapes of Kyrgyzstan or the Pamir Mountains. Children and adults wave at us or honk – we are welcome everywhere. Europeans do not need a visa. We have very direct and affordable flight connections via Istanbul with Pegasus (flypgs.com) directly to Osh, Kyrgyzstan, our base in Central Asia. Are you in the mood for breathtaking landscapes, empty roads, and endless gravel tracks? Would you like to discover a new country safely and in an organized way while gaining cultural insights with expert guidance? Then you are in the right place.For more information, please check the individual tours. If you have any questions or concerns, feel free to send an email or call us – we will get back to you immediately. Our Swiss Mine Partners organize custom group tours – Nous organisons aussi des Tours en Groupe en Français – We also organize group tours in English.",
 		"pressHere": "PRESS HERE"
 	},

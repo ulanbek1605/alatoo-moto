@@ -8,18 +8,6 @@ const Partners = () => {
 
   const partners = [
     {
-      name: t('partners.enduristan.name'),
-      description: t('partners.enduristan.description'),
-      image: '/image/enduristan.jfif',
-      sayt: 'https://enduristan.ch/',
-    },
-    {
-      name: t('partners.yamaha.name'),
-      description: t('partners.yamaha.description'),
-      image: '/image/yamaha.png',
-      sayt: '',
-    },
-    {
       name: t('partners.oil.name'),
       description: t('partners.oil.description'),
       image: '/image/Motul.jpg',

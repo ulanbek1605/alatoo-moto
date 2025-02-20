@@ -33,35 +33,35 @@ function Trips() {
       data: null,
       link: 'mailto:shahruh@alatoo-moto.com'
     },
-    {
-      id: 4,
-      title: t('trips.customized_tour_group.title'),
-      address: t('trips.customized_tour_group.address'),
-      photo: '/image/trips1.jpeg',
-      data: null,
-      link: 'mailto:shahruh@alatoo-moto.com'
-    },
-    {
-      id: 5,
-      title: t('trips.oil_tires.title'),
-      address: t('trips.oil_tires.address'),
-      photo: '/image/shiny.jpg',
-      data: null,
-      link: 'mailto:shahruh@alatoo-moto.com'
-    },
-    {
-      id: 6,
-      title: t('trips.support_rentals.title'),
-      address: t('trips.support_rentals.address'),
-      photo: '/image/2222.jpg',
-      data: null,
-      link: 'mailto:shahruh@alatoo-moto.com'
-    },
+    // {
+    //   id: 4,
+    //   title: t('trips.customized_tour_group.title'),
+    //   address: t('trips.customized_tour_group.address'),
+    //   photo: '/image/trips1.jpeg',
+    //   data: null,
+    //   link: 'mailto:shahruh@alatoo-moto.com'
+    // },
+    // {
+    //   id: 5,
+    //   title: t('trips.oil_tires.title'),
+    //   address: t('trips.oil_tires.address'),
+    //   photo: '/image/shiny.jpg',
+    //   data: null,
+    //   link: 'mailto:shahruh@alatoo-moto.com'
+    // },
+    // {
+    //   id: 6,
+    //   title: t('trips.support_rentals.title'),
+    //   address: t('trips.support_rentals.address'),
+    //   photo: '/image/2222.jpg',
+    //   data: null,
+    //   link: 'mailto:shahruh@alatoo-moto.com'
+    // },
   ];
 
   return (
     <div className='tripsContainer'>
-      <h2>{t('trips.title')}</h2>
+      {/* <h2>{t('trips.title')}</h2> */}
       <div className='tripsBlock'>
         {trips.map((item) => (
           <div key={item.id} className='tripsCard'>

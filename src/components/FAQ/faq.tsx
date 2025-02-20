@@ -56,8 +56,8 @@ const PaymentInfo = () => {
         <h2>{t('gps.title')}</h2>
         <p>{t('gps.content')}</p>
 
-        <h2>{t('tour.title')}</h2>
-        <p>{t('tour.content')}</p>
+        {/* <h2>{t('tour.title')}</h2>
+        <p>{t('tour.content')}</p> */}
 
         <h2>{t('cyclists.title')}</h2>
         <p>{t('cyclists.content')}</p>

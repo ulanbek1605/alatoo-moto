@@ -1,12 +1,11 @@
-import i18next from "i18next";
+import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
 import Backend from "i18next-http-backend";
 import LanguageDetector from "i18next-browser-languagedetector";
 
-// Определяем, выполняется ли код в браузере
-const isBrowser = typeof window !== "undefined";
+const isBrowser = typeof window !== "undefined"; // Проверяем, выполняется ли код в браузере
 
-i18next
+i18n
   .use(Backend) // Подключаем бэкенд для загрузки JSON-файлов с переводами
   .use(isBrowser ? LanguageDetector : () => {}) // Определяем язык только в браузере
   .use(initReactI18next) // Интеграция с React
@@ -29,4 +28,4 @@ i18next
     },
   });
 
-export default i18next;
+export default i18n;

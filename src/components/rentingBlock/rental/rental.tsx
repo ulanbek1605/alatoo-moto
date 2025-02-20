@@ -21,22 +21,22 @@ function Rental() {
 
   // const cars = t('rental.cars', { returnObjects: true });
 
-  const cars = [
-    {
-      id: 1,
-      name: t('rental.cars_name'),
-      month: t('rental.cars_month'),
-      cost1: t('rental.cars_cost1'),
-      cost2: t('rental.cars_cost2')
-    },
-    {
-      id: 2,
-      name: t('rental.cars_name'),
-      month: t('rental.cars_month'),
-      cost1: t('rental.cars_cost1'),
-      cost2: t('rental.cars_cost2')
-    },
-  ]
+  // const cars = [
+  //   {
+  //     id: 1,
+  //     name: t('rental.cars_name'),
+  //     month: t('rental.cars_month'),
+  //     cost1: t('rental.cars_cost1'),
+  //     cost2: t('rental.cars_cost2')
+  //   },
+  //   {
+  //     id: 2,
+  //     name: t('rental.cars_name'),
+  //     month: t('rental.cars_month'),
+  //     cost1: t('rental.cars_cost1'),
+  //     cost2: t('rental.cars_cost2')
+  //   },
+  // ]
 
   return (
     <div className='rentalContainer'>
@@ -47,16 +47,16 @@ function Rental() {
       </div>
 
       <div className='rental-auto'>
-        <h2>{t('rental.carRental')}</h2>
+        {/* <h2>{t('rental.carRental')}</h2> */}
 
-        <h6>{t('rental.fleetInfo')}</h6>
-        <p>{t('rental.carDetails1')}</p>
-        <p>{t('rental.carDetails2')}</p>
+        <h2>{t('rental.fleetInfo')}</h2>
+        {/* <p>{t('rental.carDetails1')}</p> */}
+        {/* <p>{t('rental.carDetails2')}</p>
         <p>{t('rental.carDetails3')}</p>
-        <p>{t('rental.carDetails4')}</p>
+        <p>{t('rental.carDetails4')}</p> */}
       </div>
 
-      <div className='rental-block-auto'>
+      {/* <div className='rental-block-auto'>
         <div className="rental-block-auto-img">
           <div className='rental-block-auto-swipper'>
             <Swiper
@@ -112,12 +112,12 @@ function Rental() {
           </div>
 
           <div className='rental_btn'>
-            <a href='https://wa.me/996551181888' target='_blank' rel='noopener noreferrer' className='tripsBtn'>
+            <a href='https://wa.me/996998559855' target='_blank' rel='noopener noreferrer' className='tripsBtn'>
               <button className='rental-btn'>{t('rental.bookNow')}</button>
             </a>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }

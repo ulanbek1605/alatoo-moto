@@ -29,14 +29,14 @@ function RentalMoto() {
       cost2: t('rentalMoto.moto1.cost2'),
       cost3: t('rentalMoto.moto1.cost3'),
     },
-    {
-      id: 2,
-      name: t('rentalMoto.moto2.name'),
-      month: t('rentalMoto.moto2.month'),
-      cost1: t('rentalMoto.moto2.cost1'),
-      cost2: t('rentalMoto.moto2.cost2'),
-      cost3: t('rentalMoto.moto2.cost3'),
-    },
+    // {
+    //   id: 2,
+    //   name: t('rentalMoto.moto2.name'),
+    //   month: t('rentalMoto.moto2.month'),
+    //   cost1: t('rentalMoto.moto2.cost1'),
+    //   cost2: t('rentalMoto.moto2.cost2'),
+    //   cost3: t('rentalMoto.moto2.cost3'),
+    // },
   ]
 
   return (

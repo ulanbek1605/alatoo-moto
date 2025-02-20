@@ -65,7 +65,7 @@ const ServicesPage = () => {
         <p>{t('service.motorbikeParkingDescription')}</p>
         </div>
       </div>
-
+{/* 
       <div className="service-block">
         <div className="service-icon">
           <svg
@@ -82,7 +82,7 @@ const ServicesPage = () => {
         <h2>{t('service.miniHotel')}</h2>
         <p>{t('service.miniHotelDescription')}</p>
         </div>
-      </div>
+      </div> */}
 
       <div className="service-block">
         <div className="service-icon">
@@ -101,7 +101,7 @@ const ServicesPage = () => {
           <p>{t('service.amenitiesDescription')}</p>
           <ul>
           <li>{t('service.amenitiesList1')}</li>
-            <li>{t('service.amenitiesList2')}</li>
+            {/* <li>{t('service.amenitiesList2')}</li> */}
             <li>{t('service.amenitiesList3')}</li>
           </ul>
         </div>
